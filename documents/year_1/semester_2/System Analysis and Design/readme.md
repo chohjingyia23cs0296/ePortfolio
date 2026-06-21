@@ -13,7 +13,6 @@ Welcome to the `System Analysis and Design` directory of my ePortfolio. This fol
 As shown in the repository screenshot `image_1a04bf.png`, this folder contains the following files:
 * **`Assignment 1.pdf`**: Initial coursework and foundational system analysis documentation.
 * **`SAD Project Group 1.pdf`**: The comprehensive group project report detailing the full analysis, DFDs, system architecture, and wireframes for the KADA Management Information System.
-* **`readme.pdf`**: A compiled PDF version of the repository documentation.
 
 ## What I Did
 For this module, I collaborated with my team to completely map out the architecture for the KADA Management Information System. We analyzed the operational requirements for managing memberships, processing loan applications, and generating financial reports. We translated these requirements into structured Logical DFDs to outline the theoretical data flow between system entities. From there, we advanced to Physical DFDs, defining exact system partitioning to separate automated and manual processes. We also created a detailed CRUD matrix to track data creation, reading, updating, and deletion across the system's databases. Finally, we designed the overarching system architecture and drafted visual wireframes to simulate the user interface experience for both members and administrators.

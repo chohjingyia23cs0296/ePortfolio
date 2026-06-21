@@ -5,7 +5,7 @@ This semester marked a significant transition from learning isolated programming
 ## 📚 Courses
 
 * [Data Structure and Algorithm](./Data%20Structure%20and%20Algorithm)
-* [Database (WBL)](./Database)
+* [Database (WBL)](./Database(WBL))
 * [Network Communication](./Network%20Communication)
 * [Software Engineering](./Software%20Engineering)
 * [System Development Technology](./System%20Development%20Technology)

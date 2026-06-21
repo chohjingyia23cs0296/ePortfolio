@@ -1,18 +1,8 @@
-# Overview
+# 🌿 Year 2 — Semester 1
 
-This folder contains my Year 2 Semester 1 learning artifacts and coursework across five core modules. It documents my technical progress, practical implementation work, and reflections throughout the semester.
+This semester focused on strengthening my technical foundation across software, systems, networking, databases, and development workflows. I worked on both theory and practical tasks, organized evidence by module, and applied classroom concepts through coursework, labs, and project-based activities.
 
-# Objectives
-
-- Build a stronger foundation in software and system development.
-- Improve problem-solving through algorithm and data structure practice.
-- Apply database concepts in practical, work-based learning contexts.
-- Understand communication principles in computer networks.
-- Practice software engineering workflows and development methodologies.
-
-# Folder Contents / Evidence
-
-The folder includes evidence from the following subjects:
+## 📚 Courses
 
 - **Data Structure and Algorithm**
 - **Database (WBL)**
@@ -20,30 +10,19 @@ The folder includes evidence from the following subjects:
 - **Software Engineering**
 - **System Development Technology**
 
-Each subfolder contains related notes, assignments, lab work, project materials, or supporting documents that represent my learning and progress.
+## Semester Learning
 
-# What I Did
+Throughout this semester, I:
 
-- Completed coursework and practical tasks for all five modules.
-- Organized module-based learning materials in separate folders for clarity.
-- Worked on technical exercises, documentation, and project-related activities.
-- Applied concepts from class into practical outputs and evidence files.
+- Built stronger problem-solving skills through algorithm and data structure practice.
+- Applied database concepts in practical, work-based learning contexts.
+- Improved my understanding of network communication principles and models.
+- Practiced software engineering workflows, including collaboration and planning.
+- Strengthened system development and technical documentation skills.
+- Organized module materials into clear subject-based folders for better tracking and review.
 
-# Key Learning Outcomes
+## Reflection
 
-- Better understanding of algorithmic thinking and structured problem-solving.
-- Improved ability to design and manage database-related tasks.
-- Increased awareness of network fundamentals and communication models.
-- Stronger collaboration and planning skills through software engineering practices.
-- Enhanced technical confidence in developing and documenting systems.
+This semester helped me become more disciplined in managing multiple technical subjects while maintaining organized evidence of progress. I gained a clearer view of how different modules connect in real-world development, from planning and implementation to communication and documentation.
 
-# Reflection
-
-This semester helped me become more disciplined in managing technical subjects and organizing evidence of my work. I gained a clearer understanding of how different modules connect in real-world development, from planning and design to implementation and communication. Maintaining this folder also helped me track my own growth more systematically.
-
-# Possible Improvements
-
-- Add short README files inside each subject folder to summarize specific artifacts.
-- Include more screenshots, diagrams, or final outputs for easier review.
-- Provide brief reflection notes per module to capture challenges and solutions.
-- Standardize naming conventions across all files for consistency.
+I also improved my confidence in handling technical tasks and presenting my work in a structured way. Going forward, I want to enhance this folder by adding module-specific summaries, short reflections, and more visual evidence (e.g., screenshots and diagrams) to make the learning journey easier to review.

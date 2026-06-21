@@ -13,7 +13,7 @@ Welcome to the `technology_and_information_system` directory of my ePortfolio. T
 * **`Assignment 1/`**: Reflection on Clarity Techworks industrial talk.
 * **`Assignment 2/`**: Reflection on the UTM Digital industrial visit.
 * **`Assignment 3/`**: Reflection on the industrial talk by Credence (Telekom Malaysia).
-* **`Assignment 4/`** 
+* **`Assignment 4/`**: Reflection on the industrial talk by I-Farm.
 * **`Design Thinking/`**: Project files related to foundational design and problem-solving frameworks.
 * **`PC Assemble (Lab)/`**: Collaborative reflection and documentation of the hands-on computer assembly process.
 

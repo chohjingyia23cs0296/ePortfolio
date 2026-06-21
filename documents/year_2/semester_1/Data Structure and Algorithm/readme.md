@@ -10,10 +10,9 @@ Welcome to the `Data Structure and Algorithm` directory of my ePortfolio. This f
 * To apply appropriate data structures and algorithmic strategies to solve complex computational problems.
 
 ## Folder Contents / Evidence
-*(Note: Please update these placeholder file names to match the exact assets inside your directory)*
 * **`Assignment_1`**: Source code and reports focusing on the implementation of arrays, linked lists, stacks, and queues.
 * **`Assignment_2`**: Projects demonstrating binary search trees (BST), AVL trees, and graph traversal algorithms (BFS and DFS).
-* **`Project`**: The capstone programming project applying multiple data structures to build an efficient, optimized application.
+* **`Final`**: The capstone programming project applying multiple data structures to build an efficient, optimized application.
 
 ## What I Did
 Throughout this module, I moved beyond writing functional code to writing *efficient* code. I implemented complex data structures from scratch to understand their internal mechanics and memory management. I spent significant time analyzing the execution speed of different algorithms and determining when to use a hash table versus a binary search tree. Through hands-on programming assignments, I debugged memory allocation issues, optimized loops, and structured data to minimize retrieval times, ultimately compiling these elements into a comprehensive final project.

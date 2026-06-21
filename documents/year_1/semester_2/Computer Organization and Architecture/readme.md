@@ -9,12 +9,6 @@ Welcome to the `Computer Organization and Architecture` directory of my ePortfol
 * To explore memory hierarchies, including cache, main memory (RAM), and secondary storage, and how they impact system performance.
 * To gain practical exposure to assembly language programming and instruction set architectures.
 
-## Folder Contents / Evidence
-* **`Assignment_1_Data_Representation/`**: Exercises on binary arithmetic, logic gates, and floating-point conversions.
-* **`Assignment_2_Memory_Hierarchy/`**: Reports and calculations related to cache mapping, memory addressing, and access times.
-* **`Assembly_Project/`**: Source code and documentation for low-level programming tasks writing and executing assembly language instructions.
-* **`Final_Architecture_Report.pdf`**: Comprehensive documentation detailing CPU data paths, control units, and pipelining concepts.
-
 ## What I Did
 Throughout this module, I studied the physical and logical foundations of computing systems. I started by mastering data representation and boolean algebra before moving on to structural designs like logic gates and multiplexers. I also wrote foundational assembly language code, which required manually managing registers and memory addresses to execute basic algorithms. Additionally, I analyzed system performance metrics, calculating clock cycles, instruction execution times, and cache hit rates to understand what makes a computer run efficiently.
 

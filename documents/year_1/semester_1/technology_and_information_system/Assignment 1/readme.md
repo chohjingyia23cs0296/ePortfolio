@@ -1,7 +1,7 @@
 # Industrial Talk Reflection: Insights into Fintech & Web Development
 
 ## 📌 Overview
-This repository contains my reflection on the industrial talk hosted by **Clarity Techworks**. This session served as my very first experience participating in an industrial talk, leaving a lasting impression and providing a crucial bridge between my academic studies and the practical realities of the tech industry.
+This repository contains industrial talk hosted by **Clarity Techworks**. This session served as my very first experience participating in an industrial talk, leaving a lasting impression and providing a crucial bridge between my academic studies and the practical realities of the tech industry
 
 ---
 

@@ -6,8 +6,8 @@ Welcome to my first year in the Bachelor of Computer Science (Data Engineering) 
 
 During this year, I developed introductory knowledge in:
 *   [C++ programming and problem solving](./semester_1/programming_techniques_I)
-*   [Digital logic and computer architecture](./semester_2/Computer_Organization_and_Architecture)
-*   [Human-computer interaction](./semester_2/Human_Computer_Interaction)
+*   [Computer architecture](./semester_2/Computer_Organization_and_Architecture)
+*   [Human_computer interaction](./semester_2/Human_Computer_Interaction)
 *   [System analysis and design](./semester_2/System_Analysis_and_Design)
 *   [Technology and information system](./semester_1/technology_and_information_system)
 

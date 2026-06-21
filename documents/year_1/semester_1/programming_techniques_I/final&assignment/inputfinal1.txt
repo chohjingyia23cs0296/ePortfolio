@@ -1,0 +1,15 @@
+Production 2500 27 Salman Ali
+Quality 1800 45 Hanif Haikal
+Production 2000 53 Rashid Abu
+Production 1800 58 Halim Hashim
+Quality 2400 35 Hani Imran
+Engineering 2300 27 Arina Hakim
+Accounting 2500 36 Anuar Omar
+Quality 1900 33 Zarith Zaid
+Engineering 2350 52 Rania Hassan
+Engineering 2250 44 Buhari Burhan
+Quality 2250 38 Citra Shari
+Accounting 2250 36 Amir Arshad
+Accounting 2180 41 Daud Kasim
+Engineering 2500 35 Sofian Saad
+Accounting 2450 29 Alisa Azman

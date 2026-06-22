@@ -1,17 +1,30 @@
-### My Personal Reflection: Industry Visit to PPG
+# Industrial Visit to PPG - Personal Reflection
 
-Visiting PPG was an eye-opening experience for me. Before the visit, I only learned about data engineering from textbooks and lectures in class. Seeing a massive company like PPG explain how they actually manage their data in the real world made everything much clearer.
+## Overview
+I participated in an industrial visit to PPG as part of my "Special Topic in Data Engineering" course. It was an eye-opening experience to see how a global manufacturing company manages its data architecture in the real world.
 
-I was really amazed to see their **Data Lake** design in action. Learning about how they take raw data from different systems (like SAP and Oracle) and clean it up using the Bronze, Silver, and Gold stages showed me how much work goes into making data useful for a business. It made me realize that data engineering isn't just about writing code; it is about building a reliable system that the whole company can trust.
-
-Another highlight of the trip was talking to the senior interns and staff. They were very welcoming and gave us great advice about transitioning from a student to a professional. Their stories motivated me to work harder on my technical skills and made me feel excited about my future career in data engineering.
-
-Overall, this visit was incredibly valuable. It helped me connect the dots between my studies and the tech industry, and I am very grateful for the opportunity.
+![PPG Building](images/PPG.jpg)
 
 ---
 
-### Key Takeaways from My Visit:
+## What I Learned
+During the visit, the technical team shared their data infrastructure, which gave me a much clearer understanding of enterprise-level data engineering:
 
-* **Real-World Scale:** Learned how massive global companies organize unstructured and structured data.
-* **The Power of Tools:** Saw how industry-standard tools like Azure Databricks and Azure Data Factory work together seamlessly.
-* **Career Inspiration:** Gained practical advice from seniors on how to prepare for the data industry.
+* **PPG's Data Lake Architecture:** I saw firsthand how raw data from different sources (like SAP and Oracle) is collected and processed.
+* **The Medallion Framework:** It was fascinating to see how they use **Azure Databricks** to clean and organize data through **Bronze, Silver, and Gold** stages.
+* **Data Governance & Orchestration:** They utilize **Azure Data Factory** for managing data workflows and **Atlan** for data cataloging to keep everything secure and organized.
+
+### Architecture Overview
+Below is the data lake architecture presented during our visit:
+
+![PPG Data Lake Architecture](images/datalakePPG.jpg)
+
+---
+
+## Key Takeaways & Appreciation
+This visit perfectly bridged the gap between what I learn in class and how it is actually applied in the industry. It showed me the high demand for scalable data pipelines and strong data governance.
+
+A huge thank you to the PPG staff for hosting us, and a special thanks to the senior interns and full-timers who spent time sharing their career advice and journey with us!
+
+![UTM Group Photo at PPG](images/groupphotoPPG.jpg)
+

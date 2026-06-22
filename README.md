@@ -111,16 +111,17 @@ Year 3 connects earlier programming and database knowledge with artificial intel
 
 ---
 
-## 🔬 SECP3843 Coursework
+## 🔬 SECP3843 Special Topic in Data Engineering Coursework
 
-| Project or Activity | Summary | Evidence |
-|-------------------|---------|----------|
-| **TVETMARA Student Attendance Management System** | A Flutter and Firebase application supporting role-based attendance processes | [View project](./documents/year_3/semester_2/Application%20Development/project/eHadir) |
-| **Azure Data Engineering Tutorial** | A layered cloud data workflow using Azure, PySpark, Parquet, Delta tables, and Power BI | [View tutorial](./documents/year_3/semester_2/Special%20Topic%20in%20Data%20Engineering/Tutorial%201%20-%20MICROSOFT%20AZURE) |
-| **High-Performance Web Crawler** | Sequential and asynchronous web crawling with performance measurement and PySpark processing | [View project](./documents/year_3/semester_2/High%20Performance%20Data%20Processing/web_crawler_project) |
-| **Business Intelligence Project** | Business-data transformation using Alteryx with dashboard evidence prepared for Power BI | [View project](./documents/year_3/semester_2/Business%20Intelligence/BI_final_phase) |
-| **Koperasi Kakitangan KADA System** | A PHP web application containing member, user, administration, and loan-related functionalities | [View project](./documents/year_2/semester_1/System%20Development%20Technology/Koperasi-Kakitangan-KADA-System-main) |
-| **Library Management System** | A Java console application demonstrating object-oriented programming concepts | [View project](./documents/year_2/semester_2/Object%20Oriented%20Programming/project) |
+| Activity | Focus | Evidence |
+|----------|-------|----------|
+| Academic Writing | Academic and technical writing | [Open](./documents/year_3/semester_2/Special%20Topic%20in%20Data%20Engineering/Technical%20Report%20(Data%20Engineering%20Ecosystem)) |
+| Tutorial 1 | Azure-based layered data processing and Power BI | [Open](./documents/year_3/semester_2/Special%20Topic%20in%20Data%20Engineering/Tutorial%201%20-%20MICROSOFT%20AZURE) |
+| Tutorial 2 | Apache Spark concepts and management case study | [Open](./documents/year_3/semester_2/Special%20Topic%20in%20Data%20Engineering/Tutorial%202%20-%20Apache%20Spark) |
+| Tutorial 3 | ANN and CNN image classification using CIFAR-10 | [Open](./documents/year_3/semester_2/Special%20Topic%20in%20Data%20Engineering/Tutorial%203%20-%20AI%20Algorithm) |
+| Tutorial 4 | Analytical pipeline using Python, DuckDB, dbt, and visualisation | [Open](./documents/year_3/semester_2/Special%20Topic%20in%20Data%20Engineering/Tutorial%204%20-%20AI-Assisted%20ETL_Data_Pipeline_Using_AI_Agent) |
+| Tutorial Article | Article review and written submission | [Open](#) |
+| Individual Project | Project evidence area — to be updated | [Open](./documents/year_3/semester_2/Special%20Topic%20in%20Data%20Engineering/PPG%20Project) |
 
 [View the SECP3843 course overview](./documents/year_3/semester_2/Special%20Topic%20in%20Data%20Engineering/)
 

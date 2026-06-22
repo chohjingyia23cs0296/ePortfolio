@@ -1,0 +1,33 @@
+//Part B
+//Q4
+// Declare and initialize a 2D array called matrix that stores the numbers 1 to 9 arranged in 3 rows and 3 columns.
+
+    int [][]matrix={
+        {1,2,3};
+        {4,5,6};
+        {7,8,9};
+    };      
+
+//Q5
+//Create an ArrayList named grades that stores Double values for student grades.
+
+    import java.util.ArrayList;
+    ArrayList<Double> grades = new ArrayList<>();
+
+//Q6    
+//Create an anonymous array to store and immediately print the average of {10, 20, 30, 40} using a helper method printAverage.
+    
+    public class Main {
+    public static void main(String[] args) {
+        printAverage(new int[] {10, 20, 30, 40});
+    }
+
+    public static void printAverage(int[] nums) {
+        int sum = 0;
+        for(int i=0; i<nums.length; i++){
+            sum += nums[i];
+        }
+        double avg = (double) sum / nums.length;
+        System.out.println("Average: " + avg);
+    }
+}

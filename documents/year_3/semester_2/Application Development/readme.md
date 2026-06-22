@@ -82,5 +82,3 @@ Challenges I encountered included handling concurrent schedule updates, designin
   - Reporting dashboards for administrators, exportable attendance reports, notifications for schedule changes.
 
 ---
-
-If you’d like, I can commit this README.md into the repository at documents/year_3/semester_2/Application Development/readme.md. Would you like me to update the file in the repo now?

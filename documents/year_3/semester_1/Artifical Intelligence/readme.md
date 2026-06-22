@@ -18,8 +18,6 @@ This folder includes supporting materials related to my Artificial Intelligence 
 - Project files and implementation evidence
 - Screenshots, outputs, or summaries of AI model results
 
-> *(Specific files in this folder serve as evidence of my learning activities and completed assessments.)*
-
 # What I Did
 
 - Completed AI-related labs and coursework activities based on class topics.

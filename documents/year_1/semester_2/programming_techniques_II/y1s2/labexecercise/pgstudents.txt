@@ -1,0 +1,295 @@
+50
+Bakar Bin Malik 
+Master of Social Science 
+Dr. Rohaya Qamarool 
+Prof. Dr. Kamil Ahmad 
+The Effects of Social Media
+
+Ruby Gabriella 
+PhD of Business 
+Prof. Dr. Kamil Ahmad 
+Prof. Dr. Saidi Abdullah 
+Adaptive Human Capital Management
+
+Ahmad Bin Faris
+Master of Social Science
+Dr. Rohaya Qamarool
+Prof. Dr. Kamil Ahmad
+Community Development Strategies
+
+Siti Nur Ain
+PhD of Business
+Prof. Dr. Kamil Ahmad
+Prof. Dr. Saidi Abdullah
+Corporate Social 
+
+John Smith
+Master of Engineering
+Dr. Ali Hassan
+Prof. Dr. Zulkifli Rahman
+Renewable Energy Systems
+
+Maria Lopez
+Master of Education
+Dr. Nordin Abu Bakar
+Prof. Dr. Faridah Omar
+Technology in Education
+
+Emily Johnson
+PhD of Psychology
+Prof. Dr. Kamil Ahmad
+Prof. Dr. Siti Zainab
+Cognitive Behavioral Therapy
+
+Farid Bin Ahmad
+Master of Computer Science
+Dr. Laila Rahman
+Prof. Dr. Aida Aziz
+Artificial Intelligence Applications
+
+Aisha Binti Hassan
+PhD of Economics
+Prof. Dr. Kamil Ahmad
+Prof. Dr. Mizan Rahman
+Economic Impacts of Globalization
+
+David Brown
+Master of Public Health
+Dr. Sarah Lee
+Prof. Dr. Zainuddin Ali
+Epidemiology of Infectious Diseases
+
+Sarah Lim
+Master of Environmental Science
+Dr. Ahmad Tarmizi
+Prof. Dr. Nurul Huda
+Sustainable Water Management
+
+Michael Jones
+PhD of Engineering
+Prof. Dr. Kamil Ahmad
+Prof. Dr. Faris Latif
+Nanotechnology in Medicine
+
+Nurul Izzati
+Master of Finance
+Dr. Mariam Abdul
+Prof. Dr. Rashid Omar
+Financial Risk Management
+
+James Williams
+PhD of Computer Science
+Prof. Dr. Kamil Ahmad
+Prof. Dr. Nor Azman
+Machine Learning Algorithms
+
+Hannah White
+Master of Sociology
+Dr. Zubaidah Omar
+Prof. Dr. Khadijah Amin
+Urban Sociology
+
+Adam Cheng
+PhD of Chemistry
+Prof. Dr. Kamil Ahmad
+Prof. Dr. Liew Choon
+Organic Synthesis Techniques
+
+Nina Ahmad
+Master of International Relations
+Dr. Faizal Ariff
+Prof. Dr. Azhar Hassan
+Diplomacy in Southeast Asia
+
+Alexandra Smith
+PhD of History
+Prof. Dr. Kamil Ahmad
+Prof. Dr. John Matthews
+Medieval European History
+
+Kevin Tan
+Master of Business Administration
+Dr. Mahathir Musa
+Prof. Dr. Khairul Anwar
+Strategic Management
+
+Nadia Binti Rahim
+PhD of Linguistics
+Prof. Dr. Kamil Ahmad
+Prof. Dr. Zainab Sharif
+Sociolinguistics of Minority Languages
+
+Liam Brown
+Master of Political Science
+Dr. Aminah Hassan
+Prof. Dr. Siti Rahmah
+Public Policy Analysis
+
+Isabella Martin
+PhD of Biology
+Prof. Dr. Kamil Ahmad
+Prof. Dr. Robert Lee
+Genetic Engineering
+
+Daniel Lee
+Master of Economics
+Dr. Hanim Rahman
+Prof. Dr. Mohd Rizal
+International Trade Policy
+
+Aria Carter
+PhD of Mathematics
+Prof. Dr. Kamil Ahmad
+Prof. Dr. Lim Teck
+Complex Systems Theory
+
+Muhammad Ali
+Master of Civil Engineering
+Dr. Khalid Yusoff
+Prof. Dr. Mazlan Rahman
+Earthquake-Resistant Structures
+
+Sophia Wilson
+PhD of Education
+Prof. Dr. Kamil Ahmad
+Prof. Dr. Alice Wong
+Educational Leadership
+
+Benjamin Clark
+Master of Physics
+Dr. Latifah Ahmad
+Prof. Dr. Zahari Ismail
+Quantum Mechanics
+
+Nora Binti Zainal
+PhD of Public Administration
+Prof. Dr. Kamil Ahmad
+Prof. Dr. Tengku Aminah
+Governance and Public Policy
+
+Joshua Lee
+Master of Information Technology
+Dr. Rosli Hassan
+Prof. Dr. Siti Hawa
+Cybersecurity Measures
+
+Eva Adams
+PhD of Sociology
+Prof. Dr. Kamil Ahmad
+Prof. Dr. Mahmood Karim
+Gender Studies
+
+Lucas Kim
+Master of Environmental Engineering
+Dr. Anuar Hamid
+Prof. Dr. Khalida Noor
+Waste Management Systems
+
+Sophia Turner
+PhD of Medicine
+Prof. Dr. Kamil Ahmad
+Prof. Dr. Samuel Tan
+Cardiovascular Diseases
+
+Muhammad Hafiz
+Master of Accounting
+Dr. Intan Zawiyah
+Prof. Dr. Shahrul Nizam
+Forensic Accounting
+
+Charlotte Perez
+PhD of Political Science
+Prof. Dr. Kamil Ahmad
+Prof. Dr. Wendy Lee
+International Relations Theory
+
+Aidan Johnson
+Master of Chemistry
+Dr. Razak Hassan
+Prof. Dr. Aini Idris
+Green Chemistry
+
+Olivia Martinez
+PhD of Law
+Prof. Dr. Kamil Ahmad
+Prof. Dr. Hamid Jamil
+Human Rights Law
+
+Nathan Patel
+Master of Architecture
+Dr. Rashid Sulaiman
+Prof. Dr. Arif Zain
+Sustainable Architecture
+
+Emily Chen
+PhD of Computer Engineering
+Prof. Dr. Kamil Ahmad
+Prof. Dr. Wong Chee
+Embedded Systems
+
+Amirul Bakar
+Master of Business Economics
+Dr. Syafiqah Sulaiman
+Prof. Dr. Zaid Ibrahim
+Behavioral Economics
+
+Sophia Anderson
+PhD of Anthropology
+Prof. Dr. Kamil Ahmad
+Prof. Dr. Teresa Gomez
+Cultural Anthropology
+
+Hassan Ali
+Master of Urban Planning
+Dr. Nurul Fariza
+Prof. Dr. Zainal Abidin
+Smart City Development
+
+Lily Roberts
+PhD of Environmental Science
+Prof. Dr. Kamil Ahmad
+Prof. Dr. Chin Mei
+Climate Change Mitigation
+
+Jack Williams
+Master of Journalism
+Dr. Fauziah Omar
+Prof. Dr. Roslan Kassim
+Media Ethics
+
+Emma Watson
+PhD of Neuroscience
+Prof. Dr. Kamil Ahmad
+Prof. Dr. Ramli Hassan
+Neurodegenerative Diseases
+
+Muhammad Iqbal
+Master of Agricultural Science
+Dr. Nik Aziz
+Prof. Dr. Khalil Ibrahim
+Sustainable Agriculture
+
+Chloe Davis
+PhD of Business Administration
+Prof. Dr. Kamil Ahmad
+Prof. Dr. Nora Aziz
+Entrepreneurship in the Digital Age
+
+Daniela Gonzalez
+Master of Social Work
+Dr. Hajar Mahmood
+Prof. Dr. Siti Hawa
+Child Welfare Policies
+
+Aisha Binti Hassan
+PhD of Economics
+Prof. Dr. Kamil Ahmad
+Prof. Dr. Mizan Rahman
+Economic Impacts of Globalization
+
+Zul Bin Hashim
+PhD of Biochemistry
+Prof. Dr. Rina Aziz
+Prof. Dr. Kamil Ahmad
+Artificial intelligence for robots
+

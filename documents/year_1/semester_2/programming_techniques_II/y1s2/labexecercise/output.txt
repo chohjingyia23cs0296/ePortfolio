@@ -1,0 +1,53 @@
+THE LIST OF POSTGRADUATE STUDENTS
+No Name                           Supervisor                    Project                       
+
+1   Bakar Bin Malik               Prof. Dr. Kamil Ahmad         The Effects of Social Media   
+2   Ruby Gabriella                Prof. Dr. Saidi Abdullah      Adaptive Human Capital Management
+3   Ahmad Bin Faris               Prof. Dr. Kamil Ahmad         Community Development Strategies
+4   Siti Nur Ain                  Prof. Dr. Saidi Abdullah      Corporate Social              
+5   John Smith                    Prof. Dr. Zulkifli Rahman     Renewable Energy Systems      
+6   Maria Lopez                   Prof. Dr. Faridah Omar        Technology in Education       
+7   Emily Johnson                 Prof. Dr. Siti Zainab         Cognitive Behavioral Therapy  
+8   Farid Bin Ahmad               Prof. Dr. Aida Aziz           Artificial Intelligence Applications
+9   Aisha Binti Hassan            Prof. Dr. Mizan Rahman        Economic Impacts of Globalization
+10  David Brown                   Prof. Dr. Zainuddin Ali       Epidemiology of Infectious Diseases
+11  Sarah Lim                     Prof. Dr. Nurul Huda          Sustainable Water Management  
+12  Michael Jones                 Prof. Dr. Faris Latif         Nanotechnology in Medicine    
+13  Nurul Izzati                  Prof. Dr. Rashid Omar         Financial Risk Management     
+14  James Williams                Prof. Dr. Nor Azman           Machine Learning Algorithms   
+15  Hannah White                  Prof. Dr. Khadijah Amin       Urban Sociology               
+16  Adam Cheng                    Prof. Dr. Liew Choon          Organic Synthesis Techniques  
+17  Nina Ahmad                    Prof. Dr. Azhar Hassan        Diplomacy in Southeast Asia   
+18  Alexandra Smith               Prof. Dr. John Matthews       Medieval European History     
+19  Kevin Tan                     Prof. Dr. Khairul Anwar       Strategic Management          
+20  Nadia Binti Rahim             Prof. Dr. Zainab Sharif       Sociolinguistics of Minority Languages
+21  Liam Brown                    Prof. Dr. Siti Rahmah         Public Policy Analysis        
+22  Isabella Martin               Prof. Dr. Robert Lee          Genetic Engineering           
+23  Daniel Lee                    Prof. Dr. Mohd Rizal          International Trade Policy    
+24  Aria Carter                   Prof. Dr. Lim Teck            Complex Systems Theory        
+25  Muhammad Ali                  Prof. Dr. Mazlan Rahman       Earthquake-Resistant Structures
+26  Sophia Wilson                 Prof. Dr. Alice Wong          Educational Leadership        
+27  Benjamin Clark                Prof. Dr. Zahari Ismail       Quantum Mechanics             
+28  Nora Binti Zainal             Prof. Dr. Tengku Aminah       Governance and Public Policy  
+29  Joshua Lee                    Prof. Dr. Siti Hawa           Cybersecurity Measures        
+30  Eva Adams                     Prof. Dr. Mahmood Karim       Gender Studies                
+31  Lucas Kim                     Prof. Dr. Khalida Noor        Waste Management Systems      
+32  Sophia Turner                 Prof. Dr. Samuel Tan          Cardiovascular Diseases       
+33  Muhammad Hafiz                Prof. Dr. Shahrul Nizam       Forensic Accounting           
+34  Charlotte Perez               Prof. Dr. Wendy Lee           International Relations Theory
+35  Aidan Johnson                 Prof. Dr. Aini Idris          Green Chemistry               
+36  Olivia Martinez               Prof. Dr. Hamid Jamil         Human Rights Law              
+37  Nathan Patel                  Prof. Dr. Arif Zain           Sustainable Architecture      
+38  Emily Chen                    Prof. Dr. Wong Chee           Embedded Systems              
+39  Amirul Bakar                  Prof. Dr. Zaid Ibrahim        Behavioral Economics          
+40  Sophia Anderson               Prof. Dr. Teresa Gomez        Cultural Anthropology         
+41  Hassan Ali                    Prof. Dr. Zainal Abidin       Smart City Development        
+42  Lily Roberts                  Prof. Dr. Chin Mei            Climate Change Mitigation     
+43  Jack Williams                 Prof. Dr. Roslan Kassim       Media Ethics                  
+44  Emma Watson                   Prof. Dr. Ramli Hassan        Neurodegenerative Diseases    
+45  Muhammad Iqbal                Prof. Dr. Khalil Ibrahim      Sustainable Agriculture       
+46  Chloe Davis                   Prof. Dr. Nora Aziz           Entrepreneurship in the Digital Age
+47  Daniela Gonzalez              Prof. Dr. Siti Hawa           Child Welfare Policies        
+48  Aisha Binti Hassan            Prof. Dr. Mizan Rahman        Economic Impacts of Globalization
+49  Zul Bin Hashim                Prof. Dr. Kamil Ahmad         Artificial intelligence for robots
+50                                                                                            

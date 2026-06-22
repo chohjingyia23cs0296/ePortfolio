@@ -1,0 +1,21 @@
+Parameter passing refers to the mechanism of passing values or references to functions or methods
+ when they are called. It allows you to provide input to a function so that it can perform some 
+ operation based on that input. There are different ways of passing parameters in programming languages,
+including pass by value, pass by reference, and pass by pointer.
+
+#include <iostream>
+using namespace std;
+class Circle
+{ private: double radius;
+public:
+Circle(double r){radius=r;}
+double getRadius(){return radius;}
+double getArea(){return radius*radius*3.14;}
+};
+void printCircle(Circle a)//&//*
+{ cout<<a.getRadius()<<" "<<a.getArea();}
+int main()
+{ Circle ab(5.5);
+printCircle(ab);//&
+return 0;
+}

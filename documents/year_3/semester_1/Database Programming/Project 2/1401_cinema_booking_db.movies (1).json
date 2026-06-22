@@ -1,0 +1,72 @@
+[{
+  "_id": "MOV001",
+  "title": "Zombie Apocalypse: The Beginning",
+  "genres": [
+    "Horror",
+    "Thriller",
+    "Action"
+  ],
+  "duration": 120,
+  "language": "English",
+  "releaseDate": {
+    "$date": "2025-12-15T00:00:00.000Z"
+  },
+  "basePrice": 20
+},
+{
+  "_id": "MOV002",
+  "title": "Tech Titans: Silicon Valley",
+  "genres": [
+    "Documentary",
+    "Drama"
+  ],
+  "duration": 95,
+  "language": "English",
+  "releaseDate": {
+    "$date": "2026-01-01T00:00:00.000Z"
+  },
+  "basePrice": 15
+},
+{
+  "_id": "MOV003",
+  "title": "Galactic Wars",
+  "genres": [
+    "Sci-Fi",
+    "Adventure"
+  ],
+  "duration": 145,
+  "language": "English",
+  "releaseDate": {
+    "$date": "2025-11-20T00:00:00.000Z"
+  },
+  "basePrice": 25
+},
+{
+  "_id": "MOV004",
+  "title": "Family Fun Day",
+  "genres": [
+    "Animation",
+    "Comedy",
+    "Family"
+  ],
+  "duration": 90,
+  "language": "Malay",
+  "releaseDate": {
+    "$date": "2025-12-25T00:00:00.000Z"
+  },
+  "basePrice": 12
+},
+{
+  "_id": "MOV005",
+  "title": "Shadows of the Past",
+  "genres": [
+    "Mystery",
+    "Thriller"
+  ],
+  "duration": 110,
+  "language": "Korean",
+  "releaseDate": {
+    "$date": "2026-01-05T00:00:00.000Z"
+  },
+  "basePrice": 18
+}]

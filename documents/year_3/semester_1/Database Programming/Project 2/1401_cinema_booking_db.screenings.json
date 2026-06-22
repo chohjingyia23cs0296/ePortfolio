@@ -1,0 +1,124 @@
+[{
+  "_id": "SCR101",
+  "movieId": "MOV001",
+  "hall": "Hall A",
+  "startTime": {
+    "$date": "2026-01-20T10:00:00.000Z"
+  },
+  "price": 22,
+  "seatMap": [
+    {
+      "seatNo": "A1",
+      "status": "booked"
+    },
+    {
+      "seatNo": "A2",
+      "status": "booked"
+    },
+    {
+      "seatNo": "A3",
+      "status": "available"
+    },
+    {
+      "seatNo": "A4",
+      "status": "available"
+    },
+    {
+      "seatNo": "A5",
+      "status": "available"
+    }
+  ]
+},
+{
+  "_id": "SCR102",
+  "movieId": "MOV001",
+  "hall": "Hall B",
+  "startTime": {
+    "$date": "2026-01-20T13:00:00.000Z"
+  },
+  "price": 25,
+  "seatMap": [
+    {
+      "seatNo": "A1",
+      "status": "booked"
+    },
+    {
+      "seatNo": "A2",
+      "status": "available"
+    },
+    {
+      "seatNo": "A3",
+      "status": "maintenance"
+    },
+    {
+      "seatNo": "A4",
+      "status": "available"
+    },
+    {
+      "seatNo": "A5",
+      "status": "available"
+    }
+  ]
+},
+{
+  "_id": "SCR103",
+  "movieId": "MOV003",
+  "hall": "IMAX 1",
+  "startTime": {
+    "$date": "2026-01-21T06:00:00.000Z"
+  },
+  "price": 35,
+  "seatMap": [
+    {
+      "seatNo": "B1",
+      "status": "booked"
+    },
+    {
+      "seatNo": "B2",
+      "status": "available"
+    },
+    {
+      "seatNo": "B3",
+      "status": "available"
+    },
+    {
+      "seatNo": "B4",
+      "status": "available"
+    },
+    {
+      "seatNo": "B5",
+      "status": "available"
+    }
+  ]
+},
+{
+  "_id": "SCR104",
+  "movieId": "MOV004",
+  "hall": "4DX",
+  "startTime": {
+    "$date": "2026-01-22T02:00:00.000Z"
+  },
+  "price": 40,
+  "seatMap": [
+    {
+      "seatNo": "C1",
+      "status": "available"
+    },
+    {
+      "seatNo": "C2",
+      "status": "available"
+    },
+    {
+      "seatNo": "C3",
+      "status": "available"
+    },
+    {
+      "seatNo": "C4",
+      "status": "available"
+    },
+    {
+      "seatNo": "C5",
+      "status": "booked"
+    }
+  ]
+}]

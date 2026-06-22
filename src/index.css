@@ -932,6 +932,24 @@ img {
   display: flex;
   flex-wrap: wrap;
   gap: 0.4rem;
+  margin-bottom: 1rem;
+}
+
+.project-repo-link {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.4rem;
+  margin-top: 0.5rem;
+  font-size: 0.85rem;
+  font-weight: 600;
+  color: var(--accent-indigo);
+  text-decoration: none;
+  transition: gap var(--transition-base), color var(--transition-base);
+}
+
+.project-repo-link:hover {
+  color: var(--accent-purple);
+  gap: 0.6rem;
 }
 
 /* ═══════════════════════════════════════════════════
@@ -1072,10 +1090,34 @@ img {
   font-size: 1.1rem;
   color: var(--text-secondary);
   line-height: 1.8;
-  margin-bottom: 2.5rem;
+  margin-bottom: 1.5rem;
   max-width: 500px;
   margin-left: auto;
   margin-right: auto;
+}
+
+.contact-email-display {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5rem;
+  margin-bottom: 2rem;
+  padding: 0.6rem 1.2rem;
+  background: var(--bg-accent-light);
+  border: 1px solid var(--border);
+  border-radius: var(--radius-full);
+  color: var(--accent-indigo);
+}
+
+.contact-email-link {
+  font-size: 1rem;
+  font-weight: 600;
+  color: var(--accent-indigo);
+  text-decoration: none;
+}
+
+.contact-email-link:hover {
+  color: var(--accent-purple);
+  text-decoration: underline;
 }
 
 .contact-buttons {

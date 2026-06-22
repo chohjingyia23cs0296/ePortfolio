@@ -64,6 +64,13 @@ const ContactSection = () => {
             just want to say hi, feel free to reach out!
           </p>
 
+          <div className="contact-email-display">
+            <Mail size={18} />
+            <a href="mailto:jingyichoh@gmail.com" className="contact-email-link">
+              jingyichoh@gmail.com
+            </a>
+          </div>
+
           <div className="contact-buttons">
             <a href="mailto:jingyichoh@gmail.com" className="btn btn-primary">
               <Mail size={18} />

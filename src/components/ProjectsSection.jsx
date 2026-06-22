@@ -1,6 +1,6 @@
 import React from 'react';
 import { motion } from 'framer-motion';
-import { Database, CreditCard, Warehouse, Users } from 'lucide-react';
+import { Database, CreditCard, Warehouse, Users, ExternalLink } from 'lucide-react';
 
 const fadeInUp = {
   hidden: { opacity: 0, y: 30 },
@@ -20,6 +20,7 @@ const projects = [
     tags: ['Azure Data Factory', 'Databricks', 'Synapse Analytics', 'Power BI'],
     icon: Database,
     gradient: 'linear-gradient(135deg, #6366F1, #818CF8)',
+    repoUrl: 'https://github.com/chohjingyia23cs0296/medallion_architecture',
   },
   {
     title: 'Hostel Payment & Billing System',
@@ -29,6 +30,7 @@ const projects = [
     tags: ['SAP BTP', 'SAPUI5', 'MVC'],
     icon: CreditCard,
     gradient: 'linear-gradient(135deg, #8B5CF6, #A78BFA)',
+    repoUrl: 'https://github.com/chohjingyia23cs0296/Payment-and-Billing-System-',
   },
   {
     title: 'SQL Data Warehouse',
@@ -38,15 +40,17 @@ const projects = [
     tags: ['SQL Server', 'SSMS', 'ETL', 'Star Schema'],
     icon: Warehouse,
     gradient: 'linear-gradient(135deg, #A855F7, #C084FC)',
+    repoUrl: 'https://github.com/chohjingyia23cs0296/sql-data-warehouse-project',
   },
   {
-    title: 'Wello System',
+    title: 'Wello System (AI Onboarding Platform)',
     type: 'UTM Hackathon, 2025',
     description:
       'Led a development team to build an AI-powered employee onboarding platform using React, Vite, Node.js, Express.js, and PostgreSQL, streamlining new hire integration workflows.',
     tags: ['React', 'Node.js', 'Express.js', 'PostgreSQL'],
     icon: Users,
     gradient: 'linear-gradient(135deg, #6366F1, #8B5CF6)',
+    repoUrl: 'https://github.com/chohjingyia23cs0296/utmhackathon25',
   },
 ];
 
@@ -111,6 +115,18 @@ const ProjectsSection = () => {
                   </span>
                 ))}
               </div>
+
+              {project.repoUrl && (
+                <a
+                  href={project.repoUrl}
+                  target="_blank"
+                  rel="noreferrer"
+                  className="project-repo-link"
+                >
+                  <ExternalLink size={14} />
+                  View on GitHub
+                </a>
+              )}
             </motion.div>
           ))}
         </motion.div>

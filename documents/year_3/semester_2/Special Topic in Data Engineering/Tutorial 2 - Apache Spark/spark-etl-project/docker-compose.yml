@@ -1,0 +1,23 @@
+version: '3.8'
+
+services:
+  postgres:
+    image: postgres:13
+    container_name: spark_postgres
+    environment:
+      POSTGRES_USER: sparkuser
+      POSTGRES_PASSWORD: spark123
+      POSTGRES_DB: censo_escolar
+    ports:
+      - "5433:5432"
+    volumes:
+      - postgres_data:/var/lib/postgresql/data
+
+  metabase:
+    image: metabase/metabase
+    container_name: spark_metabase
+    ports:
+      - "3000:3000"
+
+volumes:
+  postgres_data:

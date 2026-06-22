@@ -1,70 +1,82 @@
-# Business Intelligence Analytics for U.S. E-Commerce Performance Optimization (2019–2025)
+# Business Intelligence Analytics for U.S. E-Commerce Performance Optimization (2019-2025)
 
 ## Overview
-This project applies Business Intelligence (BI) techniques to analyze a synthetic dataset of 1 million U.S. e‑commerce orders from 2019 to 2025. Using Alteryx Designer for data preparation and Power BI for visualization, the project transforms raw transactional data into actionable insights to help businesses understand revenue drivers, delivery bottlenecks, and customer payment behaviors.
+This project applies Business Intelligence (BI) techniques to analyze a massive dataset containing 1 million U.S. e-commerce orders spanning from 2019 to 2025. As online marketplaces continue to expand, organizations must efficiently manage complex backend operations involving heavy transactional volumes, fluid product inventories, and intricate logistics networks. Without an automated BI solution, processing this sea of raw data to uncover the root causes of delivery delays, track revenue contributors, or evaluate customer patterns becomes nearly impossible.
 
-## Objectives
-- Optimize logistics operations by identifying root causes and geographic locations of delivery delays.  
-- Improve profitability by evaluating total revenue across product categories and identifying key contributors and risks.  
-- Understand customer behavior by analyzing payment method preferences and correlations with satisfaction.  
-- Enable data-driven decisions by developing interactive storyboards and dashboards for executive stakeholders to monitor KPIs.
-
-## Folder Contents / Evidence
-- `dataset/` — Raw CSV files (Orders, Customers, Products, Payments, Sellers, Reviews, Delivery).  
-- `alteryx_workflows/` — Alteryx workflow files (.yxmd) used for data integration, cleaning, and transformation.  
-- `dashboards/` — Power BI files (.pbix) and exported PDF reports.  
-- `images/` — Screenshots of workflows and dashboards used in this README.  
-- `BI_Project_Final_Report.pdf` — Comprehensive final report with methodology, insights, and recommendations.
-
-## What I Did
-
-### Project structure and collaboration
-- Worked as part of a group; the analytical workload was divided into three main modules. I focused on data integration, cleaning, and visualization while contributing to final synthesis and interpretation.
-
-### Data Integration & Cleaning (Alteryx)
-- Imported multiple structured CSV files and performed data cleansing:
-  - Removed duplicates and handled null / malformed values.
-  - Standardized text formats and converted raw text fields to appropriate DateTime and numeric types.
-- Resolved one-to-many relationships (e.g., split payments) by grouping and aggregating via `order_id` before joining, preventing duplication of revenue figures.
-- Built a repeatable ETL workflow to produce a single, analysis-ready dataset.
-
-_(Replace with your Alteryx workflow screenshot)_
-
-![Alteryx workflow screenshot](images/alteryx_workflow.png)
-
-### Data Modeling & Visualization (Power BI)
-- Built interactive dashboards with KPIs such as:
-  - Total Revenue
-  - Total Orders
-  - Average Review Score
-  - Delivery Delay Rate
-  - Payment Method Distribution
-- Designed the storyboard "The E‑Commerce Customer Journey" to guide stakeholders through:
-  - Revenue trends over time
-  - Payment distributions and customer behavior
-  - Regional logistics delays and hotspots
-- Applied visualization best practices (e.g., donut charts for payment distribution, bar charts for category revenue, matrix tables for dense geographic data).
-
-_(Replace with your main Power BI dashboard/storyboard screenshot)_
-
-![Power BI dashboard screenshot](images/powerbi_dashboard.png)
-
-## Key Learning Outcomes
-- **ETL proficiency:** Hands-on experience using Alteryx Designer to clean, transform, and join messy, relational datasets into an analysis-ready source of truth.  
-- **Data visualization best practices:** Learned to choose appropriate charts and layouts to present insights clearly and avoid misleading or cluttered visuals.  
-- **Business acumen:** Improved ability to translate metrics into recommendations (e.g., suggesting warehouse capacity changes based on regional delay patterns).  
-- **Interactive storytelling:** Gained experience building Power BI storyboards and slicers to allow stakeholders to explore data dynamically.
-
-## Reflection
-This project bridged technical data processing and strategic business insight. A major challenge was handling one-to-many relationships (such as split payments) that can cause duplication when joining tables; aggregating these prior to joins was a crucial step. The final dashboard successfully told a coherent story: Electronics were the primary revenue drivers, credit cards dominated payment methods, and high-volume states like California and New York experienced the most logistical strain. The work demonstrated how reproducible ETL and clear visual storytelling can turn large transactional datasets into actionable decisions.
-
-## Possible Improvements
-- Predictive analytics: Integrate machine learning (e.g., Python or Alteryx predictive tools) to forecast revenue and anticipate delivery bottlenecks, especially for holiday seasons.  
-- Deeper geographic drilling: Add interactive maps in Power BI to analyze delays at city or ZIP-code level rather than state-level only.  
-- Cost analysis: Incorporate shipping costs and marketing spend to calculate ROI and Customer Acquisition Cost (CAC).  
-- ETL validation: Implement automated schema and data-quality checks in the workflow to detect unexpected changes or null spikes earlier.  
-- Dashboard interactivity: Add drill-throughs, tooltips with summary metrics, and advanced filtering to enable deeper ad-hoc exploration by stakeholders.
+By utilizing **Alteryx Designer** for robust Extract, Transform, Load (ETL) pipeline development and **Microsoft Power BI** for deep data modeling and interactive visualization, this project successfully transforms raw e-commerce data streams into structured, actionable business insights.
 
 ---
 
-If you'd like, I can add the actual screenshots to `images/` and insert them into this README, or save this content directly to the repository (this will overwrite the current README in the folder). Tell me which you'd prefer.
+## Objectives
+* **Identify Operational Bottlenecks:** Pinpoint the root causes and regional distribution of systemic shipping delays across the fulfillment network.
+* **Optimize Category Profitability:** Evaluate revenue distribution across product sectors to safeguard top revenue streams and mitigate category concentration risk.
+* **Decode Customer Payment & Satisfaction Trends:** Analyze consumer payment methods and determine how checkout choices affect transaction volumes and overall satisfaction scores.
+* **Deliver Executive-Ready Visualizations:** Build an interactive data storyboard ("The E-Commerce Customer Journey") to support high-level, data-driven strategic planning.
+
+---
+
+## Folder Contents / Evidence
+* `dataset/` - Contains the primary structured CSV source tables (Orders, Products, Customers, Payments, Sellers, Delivery, and Reviews).
+* `alteryx_workflows/` - Houses the data preparation files (`.yxmd`) mapping the custom analytical data pipelines.
+* `dashboards/` - Houses the interactive Power BI workbook file (`.pbix`).
+* `documents/` - Contains the formal compiled documentation, phase notes, and project report.
+* `images/` - Stores the workflow architecture and dashboard interface screenshots embedded below.
+
+---
+
+## What I Did
+
+Operating as a collaborative three-person BI team, we modularized our engineering workflow into distinct analytical sectors to handle data cleanup and modeling parallelly:
+
+### 1. Sales and Product Analytics (Muhammad Syahmi Faris)
+* Sequentially integrated the `orders.csv`, `customers.csv`, `order_items.csv`, and `products.csv` files using strict relational table joins.
+* Created calculated fields via the Formula tool to derive vital operational financial metrics, including *Profit Margin (%)*, *Discount Rate (%)*, and extracted *Order Year*.
+* Aggregated overall sales performance metrics utilizing summary tools grouped cleanly by state, calendar year, and category name.
+
+#### Sales Analytics Workflow Architecture:
+![Sales and Product Analytics Workflow](images/sales_product_analytics.png)
+
+### 2. Logistics and Delivery Analytics (Afif Shaqir Irfan)
+* Cleaned and structuralized `orders.csv`, `sellers.csv`, and `order_items.csv` tables, applying aggressive filtering tools to purge missing records or corrupted timestamps.
+* Engineered custom time-delta equations tracking *Days of Delay*—measuring the exact variance between the actual delivery date and the baseline estimated delivery date.
+* Flagged shipping delays uniformly using Boolean indicators to accurately compile regional delay rates by individual merchant location and fulfillment state.
+
+#### Logistics Analytics Workflow Architecture:
+![Logistics and Delivery Analytics Workflow](images/logistics_delivery_analytics.png)
+
+### 3. Customer and Payment Analytics (Choh Jing Yi)
+* Resolved database grain mismatches caused by complex one-to-many relationships within split payment records.
+* Prevented transaction row duplication by pre-aggregating individual transaction lines by `order_id` within Alteryx prior to merging downstream customer table rows.
+* Consolidated final data models detailing total financial revenue streams and true average review score metrics mapped across individual payment channels.
+
+#### Customer & Payment Analytics Workflow Architecture:
+![Customer and Payment Analytics Workflow](images/customer_payment_analytics.png)
+
+### 4. Interactive Dashboard & Narrative Compilation (Joint Effort)
+* Connected the cleaned Alteryx outputs to Power BI to design **"The E-Commerce Customer Journey"** interactive dashboard ecosystem.
+* Embedded multi-layered data slicers (Year, State, and Payment Type Filters) to empower business executives to dynamically slice and drill into the underlying transactional layers.
+
+#### Compiled Executive Storyboard Interface:
+![E-Commerce Customer Journey Dashboard](images/ecommerce_customer_journey_dashboard.png)
+
+---
+
+## Key Learning Outcomes
+* **Advanced Data Pipeline Engineering:** Mastered data blending inside Alteryx, gaining experience resolving real-world database anomalies, structural column mismatches, and data duplication threats.
+* **Defensive Visual Modeling & Best Practices:** Acquired design frameworks within Power BI, discovering how to avoid cluttered visualization charts and focus on scannability via high-level KPI cards and horizontal metric hierarchies.
+* **Transforming Data into Actionable Strategy:** Developed corporate analytical skills to bridge the gap between technical metrics (like delivery delay timestamps) and high-impact corporate solutions (such as suggesting carrier contract overhauls).
+* **Structured Collaborative Governance:** Learned to partition large-scale analytical tasks cleanly into specific, independent domain modules that seamlessly combine into a cohesive single source of truth.
+
+---
+
+## Reflection
+This project offered a profound perspective on how uncleaned, multi-source raw enterprise data can be systematically tamed to drive core organizational decisions. One of our most rewarding breakthroughs occurred while configuring the customer payment pipeline. Initially, customers split single invoices across multiple funding options (vouchers combined with credit cards), which resulted in significant row inflation and skewed financial metrics when joined blindly. Figuring out how to build pre-aggregation blocks in Alteryx before compiling table joins was an invaluable lesson in data architecture integrity. 
+
+Unveiling the final interactive storyboard highlighted the clear narrative hidden within the numbers: the company's dependency on Electronics for revenue (~732.78M), the dominance of credit card transactions (47.48%), and the reality that logistical strains are not isolated state problems, but systemic network challenges averaging a 9.83% delay rate nationwide.
+
+---
+
+## Possible Improvements
+* **Integration of Machine Learning Forecasters:** Introduce predictive modeling components (such as ARIMA or Random Forest models inside Alteryx) to map seasonal demand peaks and proactively anticipate logistics bottle-necks before holiday delivery seasons.
+* **Granular Spatial Mapping:** Scale geographic data tracking down from high-level state boundaries to exact regional postal zip codes using Power BI's interactive shape maps for precise delivery hub optimization.
+* **Marketing & Unit Economics Expansion:** Merge customer acquisition costs (CAC) and localized marketing expenditures to analyze the true localized lifetime value (LTV) of each active consumer demographic.

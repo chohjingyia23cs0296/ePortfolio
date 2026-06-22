@@ -1,4 +1,3 @@
-```markdown name=README.md
 # Data Analytic Programming
 
 ## Overview

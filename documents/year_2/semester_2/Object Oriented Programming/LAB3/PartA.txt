@@ -1,0 +1,11 @@
+//Part A
+    //Error 1
+    double[] gpa=new double[4];
+
+    //Error 2
+    int[] points;
+    points = new int[]{90, 85, 88}; 
+
+    //Error 3
+    printTotal("Test Scores", 10, 20, 30);
+        

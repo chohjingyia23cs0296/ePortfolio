@@ -1,0 +1,28 @@
+[{
+  "_id": "USER_001",
+  "name": "Neo Li Xin",
+  "email": "neo@gmail.com",
+  "membershipLevel": "Gold",
+  "loyaltyPoints": 150
+},
+{
+  "_id": "USER_002",
+  "name": "Choh Jing Yi",
+  "email": "choh@gmail.com",
+  "membershipLevel": "Silver",
+  "loyaltyPoints": 50
+},
+{
+  "_id": "USER_003",
+  "name": "Chew Chiu Xian",
+  "email": "chew@gmail.com",
+  "membershipLevel": "Bronze",
+  "loyaltyPoints": 10
+},
+{
+  "_id": "USER_004",
+  "name": "John Doe",
+  "email": "john@hotmail.com",
+  "membershipLevel": "Silver",
+  "loyaltyPoints": 65
+}]

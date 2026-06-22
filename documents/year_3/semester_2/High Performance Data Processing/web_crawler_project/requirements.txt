@@ -1,0 +1,8 @@
+requests
+aiohttp
+pandas
+numpy
+matplotlib
+psutil
+beautifulsoup4
+pyspark

@@ -1,0 +1,723 @@
+/* ========== EcoRoute Mobile AI System - Styles ========== */
+
+@import url('https://fonts.googleapis.com/css2?family=SF+Pro+Display:wght@300;400;600;700&family=Inter:wght@400;500;600;700&display=swap');
+
+* {
+    -webkit-tap-highlight-color: transparent;
+}
+
+body { 
+    font-family: 'SF Pro Display', 'Inter', -apple-system, BlinkMacSystemFont, sans-serif; 
+    background: linear-gradient(135deg, #cbd5e1 0%, #e2e8f0 50%, #f1f5f9 100%);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    margin: 0;
+    overflow: hidden;
+}
+
+/* ========== IPHONE 16 PRO MAX CHASSIS ========== */
+
+.iphone-frame {
+    width: 430px; 
+    height: 932px; 
+    background: linear-gradient(145deg, #2a2a2a 0%, #000000 100%);
+    border-radius: 55px;
+    box-shadow: 
+        0 0 0 2px #1a1a1a,
+        0 0 0 6px #3a3a3a, 
+        0 0 0 8px #2a2a2a,
+        0 0 0 12px #444, 
+        0 0 0 14px #1a1a1a, 
+        0 25px 80px rgba(0,0,0,0.6),
+        0 10px 30px rgba(0,0,0,0.4),
+        inset 0 0 20px rgba(255,255,255,0.05); 
+    position: relative;
+    overflow: hidden;
+    border: 8px solid #000; 
+}
+
+.iphone-frame::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 50%;
+    background: linear-gradient(180deg, rgba(255,255,255,0.03) 0%, transparent 100%);
+    border-radius: 47px 47px 0 0;
+    pointer-events: none;
+    z-index: 101;
+}
+
+.dynamic-island {
+    position: absolute;
+    top: 11px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 126px;
+    height: 37px;
+    background: linear-gradient(180deg, #1a1a1a 0%, #000000 100%);
+    border-radius: 20px;
+    z-index: 100;
+    transition: all 0.4s cubic-bezier(0.34, 1.56, 0.64, 1);
+    box-shadow: inset 0 -1px 2px rgba(255,255,255,0.1);
+}
+
+.dynamic-island:hover {
+    width: 140px;
+    height: 40px;
+}
+
+.screen-content {
+    width: 100%;
+    height: 100%;
+    background-color: #fff;
+    border-radius: 46px;
+    overflow: hidden;
+    position: relative;
+}
+
+/* ========== SCROLLING ========== */
+
+.scroll-area {
+    height: 100%;
+    overflow-y: auto;
+    padding-bottom: 100px; 
+    scroll-behavior: smooth;
+}
+
+.scroll-area::-webkit-scrollbar { 
+    display: none; 
+}
+
+#agent-logs::-webkit-scrollbar {
+    width: 4px;
+}
+
+#agent-logs::-webkit-scrollbar-track {
+    background: rgba(255, 255, 255, 0.05);
+    border-radius: 10px;
+}
+
+#agent-logs::-webkit-scrollbar-thumb {
+    background: linear-gradient(180deg, rgba(16, 185, 129, 0.6) 0%, rgba(16, 185, 129, 0.3) 100%);
+    border-radius: 10px;
+}
+
+/* ========== MAP STYLES ========== */
+
+.map-bg {
+    background-color: #b8d4e8; 
+    background-image: 
+        linear-gradient(135deg, rgba(16, 185, 129, 0.03) 0%, transparent 50%),
+        url('city-map-basel-color-detailed.webp');
+    background-size: cover, cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    position: relative;
+    overflow: hidden;
+}
+
+.map-bg::before {
+    content: '';
+    position: absolute;
+    inset: 0;
+    background-image: 
+        linear-gradient(rgba(16, 185, 129, 0.03) 1px, transparent 1px),
+        linear-gradient(90deg, rgba(16, 185, 129, 0.03) 1px, transparent 1px);
+    background-size: 30px 30px;
+    pointer-events: none;
+    animation: gridPulse 4s ease-in-out infinite;
+}
+
+@keyframes gridPulse {
+    0%, 100% { opacity: 0.5; }
+    50% { opacity: 1; }
+}
+
+/* ========== BIN NODES ========== */
+
+.bin-node {
+    transition: all 0.3s cubic-bezier(0.34, 1.56, 0.64, 1);
+    cursor: pointer;
+    box-shadow: 
+        0 4px 15px rgba(0,0,0,0.3),
+        0 2px 4px rgba(0,0,0,0.2),
+        inset 0 2px 4px rgba(255,255,255,0.3); 
+    border: 3px solid white;
+    z-index: 20;
+    position: absolute;
+}
+
+.bin-node:hover {
+    transform: translate(-50%, -50%) scale(1.3);
+    box-shadow: 
+        0 8px 25px rgba(16, 185, 129, 0.4),
+        0 4px 8px rgba(0,0,0,0.2);
+}
+
+.bin-node .fill-indicator {
+    position: absolute;
+    bottom: -10px;
+    left: 50%;
+    transform: translateX(-50%);
+    font-size: 7px;
+    font-weight: bold;
+    color: white;
+    background: rgba(0,0,0,0.8);
+    padding: 2px 5px;
+    border-radius: 4px;
+    white-space: nowrap;
+}
+
+.depot-node {
+    position: absolute;
+    z-index: 30; 
+    background: linear-gradient(135deg, #fbbf24 0%, #f59e0b 100%);
+    color: white;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 
+        0 4px 20px rgba(245, 158, 11, 0.5),
+        0 2px 8px rgba(0,0,0,0.2),
+        inset 0 2px 4px rgba(255,255,255,0.3);
+    border: 3px solid white;
+    font-size: 16px;
+    transform: translate(-50%, -50%); 
+}
+
+/* ========== BIN ANIMATIONS ========== */
+
+@keyframes pulse-red {
+    0% { box-shadow: 0 0 0 0 rgba(239, 68, 68, 0.7), 0 4px 15px rgba(0,0,0,0.3); }
+    70% { box-shadow: 0 0 0 15px rgba(239, 68, 68, 0), 0 4px 15px rgba(0,0,0,0.3); }
+    100% { box-shadow: 0 0 0 0 rgba(239, 68, 68, 0), 0 4px 15px rgba(0,0,0,0.3); }
+}
+
+@keyframes pulse-yellow {
+    0% { box-shadow: 0 0 0 0 rgba(234, 179, 8, 0.5), 0 4px 15px rgba(0,0,0,0.3); }
+    70% { box-shadow: 0 0 0 10px rgba(234, 179, 8, 0), 0 4px 15px rgba(0,0,0,0.3); }
+    100% { box-shadow: 0 0 0 0 rgba(234, 179, 8, 0), 0 4px 15px rgba(0,0,0,0.3); }
+}
+
+@keyframes pulse-green {
+    0% { box-shadow: 0 4px 15px rgba(16, 185, 129, 0.3); }
+    50% { box-shadow: 0 4px 25px rgba(16, 185, 129, 0.5); }
+    100% { box-shadow: 0 4px 15px rgba(16, 185, 129, 0.3); }
+}
+
+.animate-priority { animation: pulse-red 1.5s infinite; }
+.animate-warning { animation: pulse-yellow 2s infinite; }
+.animate-healthy { animation: pulse-green 3s ease-in-out infinite; }
+
+/* ========== GENERAL ANIMATIONS ========== */
+
+@keyframes fadeInUp {
+    from { opacity: 0; transform: translateY(20px); }
+    to { opacity: 1; transform: translateY(0); }
+}
+
+.animate-fade-in-up {
+    animation: fadeInUp 0.5s ease-out forwards;
+}
+
+@keyframes drawRoute {
+    from { stroke-dashoffset: 2000; }
+    to { stroke-dashoffset: 0; }
+}
+
+.route-path {
+    stroke-dasharray: 8, 4;
+    animation: drawRoute 2s ease-out forwards;
+}
+
+.hidden-view { 
+    display: none !important; 
+}
+
+/* ========== BOTTOM NAVIGATION ========== */
+
+.bottom-nav {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 85px;
+    background: rgba(255, 255, 255, 0.95);
+    backdrop-filter: blur(20px);
+    border-top: 1px solid rgba(0,0,0,0.05);
+    display: flex;
+    justify-content: space-around;
+    padding-top: 15px;
+    padding-bottom: 25px; 
+    z-index: 50;
+}
+
+.nav-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 4px;
+    color: #94a3b8;
+    font-size: 10px;
+    font-weight: 600;
+    width: 60px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    position: relative;
+}
+
+.nav-item::before {
+    content: '';
+    position: absolute;
+    top: -15px;
+    width: 40px;
+    height: 3px;
+    background: #10b981;
+    border-radius: 0 0 4px 4px;
+    transform: scaleX(0);
+    transition: transform 0.3s ease;
+}
+
+.nav-item.active::before { transform: scaleX(1); }
+.nav-item.active { color: #10b981; }
+.nav-item i { font-size: 20px; }
+
+/* ========== CARDS & BUTTONS ========== */
+
+.stat-card {
+    background: linear-gradient(135deg, #ffffff 0%, #f8fafc 100%);
+    border: 1px solid rgba(0,0,0,0.04);
+    box-shadow: 0 1px 3px rgba(0,0,0,0.04), 0 4px 12px rgba(0,0,0,0.03);
+    transition: all 0.3s ease;
+}
+
+.stat-card:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 4px 12px rgba(0,0,0,0.08), 0 8px 24px rgba(0,0,0,0.06);
+}
+
+.btn-primary {
+    background: linear-gradient(135deg, #10b981 0%, #059669 100%);
+    box-shadow: 0 4px 15px rgba(16, 185, 129, 0.3);
+    transition: all 0.3s ease;
+}
+
+.btn-primary:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 6px 20px rgba(16, 185, 129, 0.4);
+}
+
+.btn-secondary {
+    background: linear-gradient(135deg, rgba(255,255,255,0.15) 0%, rgba(255,255,255,0.05) 100%);
+    border: 1px solid rgba(255,255,255,0.2);
+}
+
+.btn-blue {
+    background: linear-gradient(135deg, #3b82f6 0%, #2563eb 100%);
+    box-shadow: 0 4px 15px rgba(59, 130, 246, 0.3);
+}
+
+.btn-orange {
+    background: linear-gradient(135deg, #f97316 0%, #ea580c 100%);
+    box-shadow: 0 4px 15px rgba(249, 115, 22, 0.3);
+}
+
+/* ========== AI AGENT CONSOLE ========== */
+
+.agent-container {
+    background: linear-gradient(145deg, #0f172a 0%, #1e293b 100%);
+    border: 1px solid rgba(255,255,255,0.05);
+    box-shadow: 0 8px 32px rgba(0,0,0,0.3);
+    position: relative;
+    overflow: hidden;
+}
+
+.agent-container::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 100px;
+    background: linear-gradient(180deg, rgba(16, 185, 129, 0.08) 0%, transparent 100%);
+    pointer-events: none;
+}
+
+.agent-status-dot {
+    width: 8px;
+    height: 8px;
+    background: #10b981;
+    border-radius: 50%;
+    animation: statusPulse 2s ease-in-out infinite;
+}
+
+@keyframes statusPulse {
+    0%, 100% { opacity: 0.5; transform: scale(0.8); }
+    50% { opacity: 1; transform: scale(1); }
+}
+
+/* ========== LOGIN SCREEN ========== */
+
+.login-bg {
+    background: 
+        radial-gradient(ellipse at 20% 80%, rgba(16, 185, 129, 0.15) 0%, transparent 50%),
+        radial-gradient(ellipse at 80% 20%, rgba(59, 130, 246, 0.1) 0%, transparent 50%),
+        linear-gradient(180deg, #0f172a 0%, #1e293b 100%);
+}
+
+.particle {
+    position: absolute;
+    width: 4px;
+    height: 4px;
+    background: rgba(16, 185, 129, 0.3);
+    border-radius: 50%;
+    animation: float 15s infinite ease-in-out;
+}
+
+@keyframes float {
+    0%, 100% { transform: translateY(0) translateX(0); opacity: 0; }
+    10% { opacity: 1; }
+    90% { opacity: 1; }
+    100% { transform: translateY(-100vh) translateX(20px); opacity: 0; }
+}
+
+.text-gradient {
+    background: linear-gradient(135deg, #10b981 0%, #34d399 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+}
+
+.logo-container::before {
+    content: '';
+    position: absolute;
+    inset: -10px;
+    background: radial-gradient(circle, rgba(16, 185, 129, 0.3) 0%, transparent 70%);
+    filter: blur(15px);
+    animation: logoGlow 3s ease-in-out infinite;
+}
+
+@keyframes logoGlow {
+    0%, 100% { opacity: 0.5; transform: scale(0.9); }
+    50% { opacity: 1; transform: scale(1.1); }
+}
+
+/* ========== PREDICTION & CONTROL CARDS ========== */
+
+.prediction-badge {
+    background: linear-gradient(135deg, #fbbf24 0%, #f59e0b 100%);
+    color: white;
+    font-size: 8px;
+    padding: 2px 6px;
+    border-radius: 10px;
+    position: absolute;
+    top: -12px;
+    right: -8px;
+    font-weight: bold;
+    box-shadow: 0 2px 8px rgba(245, 158, 11, 0.4);
+}
+
+.control-card {
+    background: linear-gradient(135deg, #ffffff 0%, #f8fafc 100%);
+    border: 1px solid rgba(0,0,0,0.04);
+    transition: all 0.3s ease;
+}
+
+.control-card:hover {
+    border-color: rgba(16, 185, 129, 0.2);
+    box-shadow: 0 4px 20px rgba(16, 185, 129, 0.1);
+}
+
+.header-container {
+    background: linear-gradient(180deg, rgba(255,255,255,0.98) 0%, rgba(255,255,255,0.95) 100%);
+    backdrop-filter: blur(20px);
+}
+
+.route-stats-panel {
+    background: rgba(255,255,255,0.95);
+    backdrop-filter: blur(20px);
+    border-radius: 20px 20px 0 0;
+    box-shadow: 0 -4px 20px rgba(0,0,0,0.1);
+}
+
+/* ========== TRIP HISTORY STYLES ========== */
+
+.history-card {
+    background: linear-gradient(135deg, #ffffff 0%, #f8fafc 100%);
+    border: 1px solid rgba(0,0,0,0.04);
+    box-shadow: 0 2px 8px rgba(0,0,0,0.04);
+    transition: all 0.3s ease;
+    cursor: pointer;
+}
+
+.history-card:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 4px 16px rgba(0,0,0,0.08);
+    border-color: rgba(16, 185, 129, 0.2);
+}
+
+.history-card:active {
+    transform: scale(0.98);
+}
+
+.history-badge {
+    font-size: 9px;
+    padding: 3px 8px;
+    border-radius: 20px;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+}
+
+.history-badge.excellent {
+    background: linear-gradient(135deg, #d1fae5 0%, #a7f3d0 100%);
+    color: #047857;
+}
+
+.history-badge.good {
+    background: linear-gradient(135deg, #dbeafe 0%, #bfdbfe 100%);
+    color: #1d4ed8;
+}
+
+.history-badge.average {
+    background: linear-gradient(135deg, #fef3c7 0%, #fde68a 100%);
+    color: #b45309;
+}
+
+/* Trip Detail Overlay */
+.trip-detail-overlay {
+    position: absolute;
+    inset: 0;
+    z-index: 60;
+    background: linear-gradient(180deg, #f8fafc 0%, #f1f5f9 100%);
+    transform: translateX(100%);
+    transition: transform 0.3s cubic-bezier(0.16, 1, 0.3, 1);
+}
+
+.trip-detail-overlay.open {
+    transform: translateX(0);
+}
+
+/* Trip Map Container */
+.trip-map-container {
+    background: linear-gradient(135deg, #e0f2fe 0%, #bae6fd 100%);
+    border-radius: 20px;
+    position: relative;
+    overflow: hidden;
+}
+
+/* Timeline styling */
+.timeline-item {
+    position: relative;
+    padding-left: 28px;
+}
+
+.timeline-item::before {
+    content: '';
+    position: absolute;
+    left: 8px;
+    top: 24px;
+    bottom: -12px;
+    width: 2px;
+    background: linear-gradient(180deg, #e2e8f0 0%, transparent 100%);
+}
+
+.timeline-item:last-child::before {
+    display: none;
+}
+
+.timeline-dot {
+    position: absolute;
+    left: 0;
+    top: 4px;
+    width: 18px;
+    height: 18px;
+    border-radius: 50%;
+    background: linear-gradient(135deg, #10b981 0%, #059669 100%);
+    border: 3px solid white;
+    box-shadow: 0 2px 8px rgba(16, 185, 129, 0.3);
+}
+
+.timeline-dot.priority {
+    background: linear-gradient(135deg, #ef4444 0%, #dc2626 100%);
+    box-shadow: 0 2px 8px rgba(239, 68, 68, 0.3);
+}
+
+/* Override Log */
+.override-log-item {
+    background: linear-gradient(135deg, #0f172a 0%, #1e293b 100%);
+    border: 1px solid rgba(255,255,255,0.05);
+}
+
+/* Empty State */
+.empty-state {
+    background: linear-gradient(135deg, #f8fafc 0%, #f1f5f9 100%);
+    border: 2px dashed #e2e8f0;
+}
+
+/* ========== DRIVER UI ENHANCEMENTS ========== */
+
+/* High-contrast driver header */
+.driver-header {
+    background: linear-gradient(180deg, rgba(15, 23, 42, 0.95) 0%, rgba(15, 23, 42, 0.85) 100%);
+    backdrop-filter: blur(20px);
+}
+
+/* Start Shift Button - Large and prominent */
+.btn-start-shift {
+    background: linear-gradient(135deg, #22c55e 0%, #16a34a 100%);
+    box-shadow: 
+        0 8px 30px rgba(34, 197, 94, 0.5),
+        0 4px 15px rgba(0, 0, 0, 0.2),
+        inset 0 2px 0 rgba(255, 255, 255, 0.2);
+    font-size: 24px;
+    min-height: 80px;
+    transition: all 0.3s cubic-bezier(0.34, 1.56, 0.64, 1);
+}
+
+.btn-start-shift:hover {
+    transform: scale(1.02);
+    box-shadow: 
+        0 12px 40px rgba(34, 197, 94, 0.6),
+        0 6px 20px rgba(0, 0, 0, 0.25);
+}
+
+.btn-start-shift:active {
+    transform: scale(0.98);
+}
+
+/* Mark as Collected Button - Fitts's Law optimized */
+.btn-collected {
+    background: linear-gradient(135deg, #10b981 0%, #059669 100%);
+    box-shadow: 
+        0 8px 25px rgba(16, 185, 129, 0.4),
+        0 4px 10px rgba(0, 0, 0, 0.2),
+        inset 0 2px 0 rgba(255, 255, 255, 0.2);
+    min-height: 72px;
+    font-size: 20px;
+    transition: all 0.2s ease;
+}
+
+.btn-collected:hover {
+    transform: translateY(-2px);
+    box-shadow: 
+        0 12px 35px rgba(16, 185, 129, 0.5),
+        0 6px 15px rgba(0, 0, 0, 0.25);
+}
+
+.btn-collected:active {
+    transform: scale(0.97);
+    background: linear-gradient(135deg, #059669 0%, #047857 100%);
+}
+
+/* Skip Bin Button */
+.btn-skip {
+    background: linear-gradient(135deg, #64748b 0%, #475569 100%);
+    box-shadow: 0 4px 15px rgba(100, 116, 139, 0.3);
+    min-height: 56px;
+}
+
+/* Current Stop Card */
+.current-stop-card {
+    background: linear-gradient(145deg, #0f172a 0%, #1e293b 100%);
+    border: 2px solid rgba(16, 185, 129, 0.3);
+    box-shadow: 
+        0 8px 32px rgba(0, 0, 0, 0.3),
+        inset 0 1px 0 rgba(255, 255, 255, 0.05);
+}
+
+.current-stop-card.priority {
+    border-color: rgba(239, 68, 68, 0.5);
+    box-shadow: 
+        0 8px 32px rgba(239, 68, 68, 0.2),
+        0 0 0 4px rgba(239, 68, 68, 0.1),
+        inset 0 1px 0 rgba(255, 255, 255, 0.05);
+}
+
+/* Progress Ring */
+.progress-ring {
+    transform: rotate(-90deg);
+}
+
+.progress-ring-circle {
+    transition: stroke-dashoffset 0.5s ease;
+}
+
+/* Driver Route Line - Bold directional */
+.driver-route-path {
+    stroke-dasharray: none;
+    filter: drop-shadow(0 2px 4px rgba(0,0,0,0.3));
+}
+
+.driver-route-arrow {
+    fill: #3b82f6;
+}
+
+/* Current target highlight */
+.current-target-marker {
+    animation: targetPulse 1.5s ease-in-out infinite;
+}
+
+@keyframes targetPulse {
+    0%, 100% { 
+        box-shadow: 0 0 0 0 rgba(59, 130, 246, 0.7), 0 4px 15px rgba(0,0,0,0.3);
+        transform: translate(-50%, -50%) scale(1);
+    }
+    50% { 
+        box-shadow: 0 0 0 20px rgba(59, 130, 246, 0), 0 4px 15px rgba(0,0,0,0.3);
+        transform: translate(-50%, -50%) scale(1.1);
+    }
+}
+
+/* Priority bin on driver map */
+.driver-bin-priority {
+    animation: driverPriorityPulse 1s ease-in-out infinite;
+}
+
+@keyframes driverPriorityPulse {
+    0%, 100% { 
+        box-shadow: 0 0 0 0 rgba(239, 68, 68, 0.8), 0 4px 20px rgba(239, 68, 68, 0.5);
+    }
+    50% { 
+        box-shadow: 0 0 0 12px rgba(239, 68, 68, 0), 0 4px 20px rgba(239, 68, 68, 0.5);
+    }
+}
+
+/* Collected bin styling */
+.bin-collected {
+    opacity: 0.4;
+    filter: grayscale(1);
+    animation: none !important;
+}
+
+/* ETA Badge */
+.eta-badge {
+    background: linear-gradient(135deg, #3b82f6 0%, #1d4ed8 100%);
+    box-shadow: 0 4px 15px rgba(59, 130, 246, 0.4);
+}
+
+/* Completion celebration */
+@keyframes celebrate {
+    0% { transform: scale(1); }
+    50% { transform: scale(1.1); }
+    100% { transform: scale(1); }
+}
+
+.celebrate {
+    animation: celebrate 0.5s ease-in-out;
+}
+
+/* Swipe hint animation */
+@keyframes swipeHint {
+    0%, 100% { transform: translateX(0); opacity: 0.5; }
+    50% { transform: translateX(10px); opacity: 1; }
+}
+
+.swipe-hint {
+    animation: swipeHint 2s ease-in-out infinite;
+}

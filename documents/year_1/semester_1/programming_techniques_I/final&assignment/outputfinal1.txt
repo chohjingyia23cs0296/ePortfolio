@@ -1,0 +1,25 @@
+---------------------------------------------------------------------------------------------------
+NAME                DEPARTMENT     BASIC(RM)      OT (HOUR)      OT PAY(RM)     SALARY (RM)
+   ---------------------------------------------------------------------------------------------------
+ Salman Ali         Production     2500.00        27.00          270.00         2770.00        
+ Hanif Haikal       Quality        1800.00        45.00          517.50         2317.50        
+ Rashid Abu         Production     2000.00        53.00          530.00         2530.00        
+ Halim Hashim       Production     1800.00        58.00          580.00         2380.00        
+ Hani Imran         Quality        2400.00        35.00          402.50         2802.50        
+ Arina Hakim        Engineering    2300.00        27.00          405.00         2705.00        
+ Anuar Omar         Accounting     2500.00        36.00          450.00         2950.00        
+ Zarith Zaid        Quality        1900.00        33.00          379.50         2279.50        
+ Rania Hassan       Engineering    2350.00        52.00          780.00         3130.00        
+ Buhari Burhan      Engineering    2250.00        44.00          660.00         2910.00        
+ Citra Shari        Quality        2250.00        38.00          437.00         2687.00        
+ Amir Arshad        Accounting     2250.00        36.00          450.00         2700.00        
+ Daud Kasim         Accounting     2180.00        41.00          512.50         2692.50        
+ Sofian Saad        Engineering    2500.00        35.00          525.00         3025.00        
+ Alisa Azman        Accounting     2450.00        29.00          362.50         2812.50        
+---------------------------------------------------------------------------------------------------
+DEPARTMENT               TOT. OT PAY              TOT. SALARY(RM)
+Production               1380.00                  7680.00                  
+Quality                  1736.50                  10086.50                 
+Engineering              2370.00                  11770.00                 
+Accounting               1775.00                  11155.00                 
+---------------------------------------------------------------------------------------------------

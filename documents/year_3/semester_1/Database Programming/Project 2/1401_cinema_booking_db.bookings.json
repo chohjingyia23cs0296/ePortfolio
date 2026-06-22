@@ -1,0 +1,72 @@
+[{
+  "_id": "BKG501",
+  "userId": "USER_001",
+  "screeningId": "SCR101",
+  "seats": [
+    "A1",
+    "A2"
+  ],
+  "totalPrice": 44,
+  "paymentMethod": "Credit Card",
+  "bookingDate": {
+    "$date": "2026-01-18T02:30:00.000Z"
+  },
+  "status": "Confirmed"
+},
+{
+  "_id": "BKG502",
+  "userId": "USER_002",
+  "screeningId": "SCR103",
+  "seats": [
+    "B1"
+  ],
+  "totalPrice": 35,
+  "paymentMethod": "E-Wallet",
+  "bookingDate": {
+    "$date": "2026-01-19T07:45:00.000Z"
+  },
+  "status": "Confirmed"
+},
+{
+  "_id": "BKG503",
+  "userId": "USER_003",
+  "screeningId": "SCR103",
+  "seats": [
+    "B2",
+    "B3"
+  ],
+  "totalPrice": 70,
+  "paymentMethod": "Online Banking",
+  "bookingDate": {
+    "$date": "2026-01-19T08:00:00.000Z"
+  },
+  "status": "Cancelled"
+},
+{
+  "_id": "BKG504",
+  "userId": "USER_001",
+  "screeningId": "SCR104",
+  "seats": [
+    "C5"
+  ],
+  "totalPrice": 40,
+  "paymentMethod": "Credit Card",
+  "bookingDate": {
+    "$date": "2026-01-21T01:00:00.000Z"
+  },
+  "status": "Pending"
+},
+{
+  "_id": "BKG505",
+  "userId": "USER_004",
+  "screeningId": "SCR102",
+  "seats": [
+    "A1"
+  ],
+  "totalPrice": 25,
+  "paymentMethod": "E-Wallet",
+  "bookingDate": {
+    "$date": "2026-01-20T00:15:00.000Z"
+  },
+  "status": "Confirmed"
+}]

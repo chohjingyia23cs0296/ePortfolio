@@ -58,6 +58,3 @@ This module is closely connected to my goal of becoming a Data Engineer because 
 - Improve code efficiency by refining pandas operations and reducing repetition in notebooks.
 - Add interactive dashboards or advanced visualizations to present findings more effectively.
 
----
-*This README documents my learning journey in the Data Analytic Programming module at UTM.*
-```

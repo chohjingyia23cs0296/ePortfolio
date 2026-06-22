@@ -65,9 +65,14 @@ const ContactSection = () => {
           </p>
 
           <div className="contact-buttons">
-            <a href="mailto:jingyichoh@gmail.com" className="btn btn-primary">
+            <a
+              href="https://mail.google.com/mail/?view=cm&to=jingyichoh@gmail.com"
+              target="_blank"
+              rel="noreferrer"
+              className="btn btn-primary"
+            >
               <Mail size={18} />
-              jingyichoh@gmail.com
+              Email Me
             </a>
             <a
               href="https://github.com/chohjingyia23cs0296"

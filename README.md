@@ -69,8 +69,8 @@ Year 1 introduced programming, digital systems, computer architecture, interface
 
 | Semester | Main Courses | Link |
 |----------|--------------|------|
-| **Semester 1** | Digital Logic; Programming Technique I; Technology & Information System | Explore Semester 1 |
-| **Semester 2** | Computer Organization and Architecture; Human Computer Interaction; Programming Technique II; System Analysis and Design | Explore Semester 2 |
+| **Semester 1** | Digital Logic; Programming Technique I; Technology & Information System | [Explore Semester 1](./documents/year_1/semester_1) |
+| **Semester 2** | Computer Organization and Architecture; Human Computer Interaction; Programming Technique II; System Analysis and Design | [Explore Semester 2](./documents/year_1/semester_2) |
 
 [View Year 1 overview](./documents/year_1/)
 
@@ -80,8 +80,8 @@ Year 2 expanded into algorithms, databases, networking, software engineering, we
 
 | Semester | Main Courses | Link |
 |----------|--------------|------|
-| **Semester 1** | Data Structure and Algorithm; Database; Network Communication; Software Engineering; System Development Technology | Explore Semester 1 |
-| **Semester 2** | Data Analytics Programming; Data Mining; Object-Oriented Programming; Operating System | Explore Semester 2 |
+| **Semester 1** | Data Structure and Algorithm; Database; Network Communication; Software Engineering; System Development Technology | [Explore Semester 1](./documents/year_2/semester_1) |
+| **Semester 2** | Data Analytics Programming; Data Mining; Object-Oriented Programming; Operating System | [Explore Semester 2](./documents/year_2/semester_2) |
 
 [View Year 2 overview](./documents/year_2/)
 
@@ -91,8 +91,8 @@ Year 3 connects earlier programming and database knowledge with artificial intel
 
 | Semester | Main Courses | Link |
 |----------|--------------|------|
-| **Semester 1** | Artificial Intelligence; Database Programming; Enterprise System Development & Modelling | Explore Semester 1 |
-| **Semester 2** | Application Development; Business Intelligence; High-Performance Data Processing; Special Topic in Data Engineering | Explore Semester 2 |
+| **Semester 1** | Artificial Intelligence; Database Programming; Enterprise System Development & Modelling | [Explore Semester 1](./documents/year_3/semester_1) |
+| **Semester 2** | Application Development; Business Intelligence; High-Performance Data Processing; Special Topic in Data Engineering | [Explore Semester 2](./documents/year_3/semester_2) |
 
 [View Year 3 overview](./documents/year_3/)
 
@@ -115,15 +115,15 @@ Year 3 connects earlier programming and database knowledge with artificial intel
 
 | Activity | Focus | Evidence |
 |----------|-------|----------|
-| Academic Writing | Academic and technical writing | [Open](#) |
-| Tutorial 1 | Azure-based layered data processing and Power BI | [Open](#) |
-| Tutorial 2 | Apache Spark concepts and management case study | [Open](#) |
-| Tutorial 3 | ANN and CNN image classification using CIFAR-10 | [Open](#) |
-| Tutorial 4 | Analytical pipeline using Python, DuckDB, dbt, and visualisation | [Open](#) |
+| Academic Writing | Academic and technical writing | [Open](./documents/year_3/semester_2/Special%20Topic%20in%20Data%20Engineering/Technical%20Report%20(Data%20Engineering%20Ecosystem)) |
+| Tutorial 1 | Azure-based layered data processing and Power BI | [Open](./documents/year_3/semester_2/Special%20Topic%20in%20Data%20Engineering/Tutorial%201%20-%20MICROSOFT%20AZURE) |
+| Tutorial 2 | Apache Spark concepts and management case study | [Open](./documents/year_3/semester_2/Special%20Topic%20in%20Data%20Engineering/Tutorial%202%20-%20Apache%20Spark) |
+| Tutorial 3 | ANN and CNN image classification using CIFAR-10 | [Open](./documents/year_3/semester_2/Special%20Topic%20in%20Data%20Engineering/Tutorial%203%20-%20AI%20Algorithm) |
+| Tutorial 4 | Analytical pipeline using Python, DuckDB, dbt, and visualisation | [Open](./documents/year_3/semester_2/Special%20Topic%20in%20Data%20Engineering/Tutorial%204%20-%20AI-Assisted%20ETL_Data_Pipeline_Using_AI_Agent) |
 | Tutorial Article | Article review and written submission | [Open](#) |
-| Individual Project | Project evidence area — to be updated | [Open](#) |
+| Individual Project | Project evidence area — to be updated | [Open](./documents/year_3/semester_2/Special%20Topic%20in%20Data%20Engineering/PPG%20Project) |
 
-[View the SECP3843 course overview](#)
+[View the SECP3843 course overview](./documents/year_3/semester_2/Special%20Topic%20in%20Data%20Engineering/)
 
 ---
 

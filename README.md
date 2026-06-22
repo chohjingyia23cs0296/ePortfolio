@@ -149,7 +149,6 @@ Year 3 connects earlier programming and database knowledge with artificial intel
 - PHP
 - HTML and CSS
 - Assembly language
-- VHDL
 
 ### Tools and Platforms
 

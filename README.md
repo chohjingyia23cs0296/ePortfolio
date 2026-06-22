@@ -120,8 +120,8 @@ Year 3 connects earlier programming and database knowledge with artificial intel
 | Tutorial 2 | Apache Spark concepts and management case study | [Open](./documents/year_3/semester_2/Special%20Topic%20in%20Data%20Engineering/Tutorial%202%20-%20Apache%20Spark) |
 | Tutorial 3 | ANN and CNN image classification using CIFAR-10 | [Open](./documents/year_3/semester_2/Special%20Topic%20in%20Data%20Engineering/Tutorial%203%20-%20AI%20Algorithm) |
 | Tutorial 4 | Analytical pipeline using Python, DuckDB, dbt, and visualisation | [Open](./documents/year_3/semester_2/Special%20Topic%20in%20Data%20Engineering/Tutorial%204%20-%20AI-Assisted%20ETL_Data_Pipeline_Using_AI_Agent) |
-| Tutorial Article | Article review and written submission | [Open](#) |
-| Individual Project | Project evidence area — to be updated | [Open](./documents/year_3/semester_2/Special%20Topic%20in%20Data%20Engineering/PPG%20Project) |
+| PPG Project | Tackle supply chain challenges and inventory risk | [Open](./documents/year_3/semester_2/Special%20Topic%20in%20Data%20Engineering/PPG%20Project) |
+| Individual Project | Project evidence area — to be updated | [Open](#) |
 
 [View the SECP3843 course overview](./documents/year_3/semester_2/Special%20Topic%20in%20Data%20Engineering/)
 

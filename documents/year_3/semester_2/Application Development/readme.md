@@ -22,11 +22,8 @@ This folder contains evidence and documentation for my Application Development w
     - platform folders (android, ios, web, macos, windows, linux)
     - test/ (placeholder for unit/widget tests)
 - project/
-  - readme.md — eHadir project overview (features, tech stack, project structure).
   - Lab2_Proposal_Section01_DevSync.pdf — project proposal section.
 - This top-level readme.md (this file) — summary, reflections and suggestions for improvement.
-
-(Refer to the folder for full files and screenshots/evidence included in each subfolder.)
 
 ## What I Did
 

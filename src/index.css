@@ -1090,34 +1090,10 @@ img {
   font-size: 1.1rem;
   color: var(--text-secondary);
   line-height: 1.8;
-  margin-bottom: 1.5rem;
+  margin-bottom: 2.5rem;
   max-width: 500px;
   margin-left: auto;
   margin-right: auto;
-}
-
-.contact-email-display {
-  display: inline-flex;
-  align-items: center;
-  gap: 0.5rem;
-  margin-bottom: 2rem;
-  padding: 0.6rem 1.2rem;
-  background: var(--bg-accent-light);
-  border: 1px solid var(--border);
-  border-radius: var(--radius-full);
-  color: var(--accent-indigo);
-}
-
-.contact-email-link {
-  font-size: 1rem;
-  font-weight: 600;
-  color: var(--accent-indigo);
-  text-decoration: none;
-}
-
-.contact-email-link:hover {
-  color: var(--accent-purple);
-  text-decoration: underline;
 }
 
 .contact-buttons {

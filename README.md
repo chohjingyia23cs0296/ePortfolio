@@ -10,12 +10,12 @@ It presents my academic progress from foundational programming and computer syst
 
 | Field | Details |
 |-------|---------|
-| **Name** | Jing Yi Choh |
+| **Name** | Choh Jing Yi |
 | **Programme** | Bachelor of Computer Science (Data Engineering) |
 | **University** | Universiti Teknologi Malaysia (UTM) |
 | **Portfolio Website** | *To be added* |
 | **GitHub** | chohjingyia23cs0296 |
-| **LinkedIn** | [(https://www.linkedin.com/in/chohjingyi)] |
+| **LinkedIn** | [Choh Jing Yi](https://www.linkedin.com/in/chohjingyi) |
 
 ## 📚 Repository Structure
 

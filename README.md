@@ -45,7 +45,7 @@ Each academic year, semester, course, and meaningful task folder contains a READ
 
 ## 🎯 Purpose
 
-This e-portfolio was prepared for the GitHub and LinkedIn portfolio assessment in Special Topic in Data Engineering (SECP3843). It provides organised evidence of my academic development and technical learning.
+This e-portfolio was prepared for the GitHub and LinkedIn portfolio assessment in Special Topic in Data Engineering (SECP3843). It provides organised evidence of my academic development and technical [...]
 
 The repository includes:
  
@@ -63,14 +63,14 @@ This portfolio showcases selected important work rather than every small classro
 
 ### 📖 Year 1 — Computing Foundations
 
-Year 1 introduced programming, digital systems, computer architecture, interface design, information systems, and system analysis. It established my foundation in C++, logical problem solving, low-level computing concepts, user-centred design, and technical documentation.
+Year 1 introduced programming, digital systems, computer architecture, interface design, information systems, and system analysis. It established my foundation in C++, logical problem solving, low-lev[...]
 
 | Semester | Main Courses | Link |
 |----------|-------------|------|
 | **Semester 1** | Digital Logic, Programming Technique I, Technology & Information System | Explore Semester 1 |
 | **Semester 2** | Computer Organization and Architecture, Human Computer Interaction, Programming Technique II, System Analysis and Design | Explore Semester 2 |
 
-[View Year 1 overview](#)
+[View Year 1 overview](./documents/year_1/)
 
 ### 💻 Year 2 — Software, Databases, and Data Analysis
 
@@ -81,43 +81,43 @@ Year 2 expanded into algorithms, databases, networking, software engineering, we
 | **Semester 1** | Data Structure and Algorithm, Database, Network Communication, Software Engineering, System Development Technology | Explore Semester 1 |
 | **Semester 2** | Data Analytics Programming, Data Mining, Object-Oriented Programming, Operating System | Explore Semester 2 |
 
-[View Year 2 overview](#)
+[View Year 2 overview](./documents/year_2/)
 
 ### 📊 Year 3 — Applied Data Engineering
 
-Year 3 connects earlier programming and database knowledge with artificial intelligence, enterprise systems, mobile development, business intelligence, high-performance processing, cloud technologies, and analytical pipelines.
+Year 3 connects earlier programming and database knowledge with artificial intelligence, enterprise systems, mobile development, business intelligence, high-performance processing, cloud technologies,[...]
 
 | Semester | Main Courses | Link |
 |----------|-------------|------|
 | **Semester 1** | Artificial Intelligence, Database Programming, Enterprise System Development & Modelling | Explore Semester 1 |
 | **Semester 2** | Application Development, Business Intelligence, High-Performance Data Processing, Special Topic in Data Engineering | Explore Semester 2 |
 
-[View Year 3 overview](#)
+[View Year 3 overview](./documents/year_3/)
 
 ## ⭐ Featured Work
 
 | Project or Activity | Summary | Evidence |
 | --- | --- | --- |
-| **TVETMARA Student Attendance Management System** | A Flutter and Firebase application supporting role-based attendance processes | [View project](./documents/year_3/semester_2/Application%20Development/project/eHadir) |
-| **Azure Data Engineering Tutorial** | A layered cloud data workflow using Azure, PySpark, Parquet, Delta tables, and Power BI | [View tutorial](./documents/year_3/semester_2/Special%20Topic%20in%20Data%20Engineering/Tutorial%201%20-%20MICROSOFT%20AZURE) |
-| **High-Performance Web Crawler** | Sequential and asynchronous web crawling with performance measurement and PySpark processing | [View project](./documents/year_3/semester_2/High%20Performance%20Data%20Processing/web_crawler_project) |
-| **Business Intelligence Project** | Business-data transformation using Alteryx with dashboard evidence prepared for Power BI | [View project](./documents/year_3/semester_2/Business%20Intelligence/BI_final_phase) |
-| **Koperasi Kakitangan KADA System** | A PHP web application containing member, user, administration, and loan-related functionalities | [View project](./documents/year_2/semester_1/System%20Development%20Technology/Koperasi-Kakitangan-KADA-System-main) |
-| **Library Management System** | A Java console application demonstrating object-oriented programming concepts | [View project](./documents/year_2/semester_2/Object%20Oriented%20Programming/project) |
+| **TVETMARA Student Attendance Management System** | A Flutter and Firebase application supporting role-based attendance processes | [View project](./documents/year_3/semester_2/Application%20Develop[...]
+| **Azure Data Engineering Tutorial** | A layered cloud data workflow using Azure, PySpark, Parquet, Delta tables, and Power BI | [View tutorial](./documents/year_3/semester_2/Special%20Topic%20in%20D[...]
+| **High-Performance Web Crawler** | Sequential and asynchronous web crawling with performance measurement and PySpark processing | [View project](./documents/year_3/semester_2/High%20Performance%20Da[...]
+| **Business Intelligence Project** | Business-data transformation using Alteryx with dashboard evidence prepared for Power BI | [View project](./documents/year_3/semester_2/Business%20Intelligence/BI[...]
+| **Koperasi Kakitangan KADA System** | A PHP web application containing member, user, administration, and loan-related functionalities | [View project](./documents/year_2/semester_1/System%20Developm[...]
+| **Library Management System** | A Java console application demonstrating object-oriented programming concepts | [View project](./documents/year_2/semester_2/Object%20Oriented%20Programming/project) [...]
 
 ## 🔬 SECP3843 Coursework
 
 | Activity | Focus | Evidence |
 |----------|-------|----------|
-| **Academic Writing** | Academic and technical writing | [Open](#) |
-| **Tutorial 1** | Azure-based layered data processing and Power BI | [Open](#) |
-| **Tutorial 2** | Apache Spark concepts and management case study | [Open](#) |
-| **Tutorial 3** | ANN and CNN image classification using CIFAR-10 | [Open](#) |
-| **Tutorial 4** | Analytical pipeline using Python, DuckDB, dbt, and visualisation | [Open](#) |
-| **Tutorial Article** | Article review and written submission | [Open](#) |
-| **Individual Project** | Project evidence area — to be updated | [Open](#) |
+| **Academic Writing** | Academic and technical writing | [Open](./documents/year_3/semester_2/Special Topic in Data Engineering/) |
+| **Tutorial 1** | Azure-based layered data processing and Power BI | [Open](./documents/year_3/semester_2/Special Topic in Data Engineering/Tutorial 1 - MICROSOFT AZURE) |
+| **Tutorial 2** | Apache Spark concepts and management case study | [Open](./documents/year_3/semester_2/Special Topic in Data Engineering/Tutorial 2 - Apache Spark) |
+| **Tutorial 3** | ANN and CNN image classification using CIFAR-10 | [Open](./documents/year_3/semester_2/Special Topic in Data Engineering/Tutorial 3 - AI Algorithm) |
+| **Tutorial 4** | Analytical pipeline using Python, DuckDB, dbt, and visualisation | [Open](./documents/year_3/semester_2/Special Topic in Data Engineering/Tutorial 4 - AI-Assisted ETL...) |
+| **Tutorial Article** | Article review and written submission | [Open](./documents/year_3/semester_2/Special Topic in Data Engineering/Tutorial Article) |
+| **Individual Project** | Project evidence area — to be updated | [Open](./documents/year_3/semester_2/Special Topic in Data Engineering/PPG Project) |
 
-[View the SECP3843 course overview](#)
+[View the SECP3843 course overview](./documents/year_3/semester_2/Special Topic in Data Engineering/)
 
 ## 🛠️ Skills and Technologies
 
@@ -159,13 +159,13 @@ Year 3 connects earlier programming and database knowledge with artificial intel
 
 ## 🌱 Reflection
 
-My academic journey began with foundational programming, computer systems, and system-design subjects. Early programming exercises taught me to solve problems step by step, debug patiently, and organise code more clearly. Hardware-related subjects helped me understand how software connects with computer components, while design and information-system coursework introduced the importance of users, requirements, communication, and documentation.
+My academic journey began with foundational programming, computer systems, and system-design subjects. Early programming exercises taught me to solve problems step by step, debug patiently, and organi[...]
 
-As I progressed, my coursework became more connected and data-oriented. Database, algorithm, networking, software-engineering, and object-oriented programming projects showed me how different technical components contribute to a complete system. Data analytics and data-mining activities strengthened my interest in working with data by demonstrating how raw records can be cleaned, explored, modelled, and transformed into useful findings.
+As I progressed, my coursework became more connected and data-oriented. Database, algorithm, networking, software-engineering, and object-oriented programming projects showed me how different technica[...]
 
-My Year 3 work brings these foundations together through artificial intelligence, database programming, enterprise modelling, application development, business intelligence, cloud platforms, and high-performance processing. I have learned that producing a working result is only one part of technical development. Data quality, performance, usability, maintainability, testing, and clear evidence are also important.
+My Year 3 work brings these foundations together through artificial intelligence, database programming, enterprise modelling, application development, business intelligence, cloud platforms, and high-[...]
 
-This portfolio records my progress rather than claiming expert-level knowledge. It also shows the challenges I faced, lessons I learned, and areas that I want to improve. I plan to continue developing my skills in scalable data processing, cloud data platforms, reliable pipelines, analytics, system development, and professional technical communication.
+This portfolio records my progress rather than claiming expert-level knowledge. It also shows the challenges I faced, lessons I learned, and areas that I want to improve. I plan to continue developing[...]
 
 Every project represents another step in my development as a future data engineer.
 
@@ -179,4 +179,3 @@ Every project represents another step in my development as a future data enginee
 ---
 
 All descriptions are based on the evidence currently available in this repository.
-

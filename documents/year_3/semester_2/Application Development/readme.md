@@ -2,56 +2,88 @@
 
 ## Overview
 
-This folder contains evidence and documentation related to my Application Development work in Semester 2 of Year 3. It showcases the skills, techniques, and outcomes from building and managing application-based projects.
+This folder contains evidence and documentation for my Application Development work in Year 3 — Semester 2. It brings together lab work and a larger project where I designed, implemented, and tested cross-platform mobile applications using Flutter, with Firebase as the backend. The primary project in this folder is "eHadir" — an attendance system — and the lab work includes a Flutter starter project and related assignment materials.
 
 ## Objectives
 
-The main objectives of this module/folder are:
-
-- To understand the principles of application development
-- To design and build functional applications
-- To apply programming concepts in a practical environment
-- To improve problem-solving, debugging, and testing skills
-- To document development progress and learning evidence clearly
+- Understand practical application development workflows for mobile and web.
+- Design and implement app features using Flutter and Firebase.
+- Apply state management patterns and integrate backend services.
+- Practice testing, debugging, and deployment preparation for cross-platform apps.
+- Document development process and collect evidence of learning and progress.
 
 ## Folder Contents / Evidence
 
-This folder includes:
+- lab 1/
+  - Lab Assignment 1 WEB DEVELOPMENT (PDF) — lab brief and instructions.
+  - assignment1/ — Flutter starter project:
+    - README.md (project overview & getting started)
+    - pubspec.yaml / pubspec.lock
+    - platform folders (android, ios, web, macos, windows, linux)
+    - test/ (placeholder for unit/widget tests)
+- project/
+  - readme.md — eHadir project overview (features, tech stack, project structure).
+  - Lab2_Proposal_Section01_DevSync.pdf — project proposal section.
+- This top-level readme.md (this file) — summary, reflections and suggestions for improvement.
 
-- Project files and source code
-- Screenshots of application features
-- Documentation and planning materials
-- Testing evidence
-- Notes on development progress
+(Refer to the folder for full files and screenshots/evidence included in each subfolder.)
 
 ## What I Did
 
-In this module, I worked on developing application-related tasks and activities. I planned the structure of the application, implemented features, tested functionality, and made improvements based on feedback and errors found during development.
+- Lab work:
+  - Completed Lab Assignment 1 materials and set up a Flutter starter project (assignment1).
+  - Configured project dependencies in pubspec.yaml and generated lock file.
+  - Created a project skeleton with platform folders and initial README.
 
-I also organized my work into this folder to keep evidence of my learning and progress.
+- Project — eHadir (Attendance System):
+  - Designed app features and UI flows for scheduling, attendance taking, and discipline reports.
+  - Implemented core functionality using Flutter:
+    - Schedule booking with conflict prevention.
+    - My Schedule view with direct actions for taking attendance.
+    - Attendance tracker for lecturers to log presence.
+    - Discipline reporting workflow routed to Program and Department Heads.
+    - Role-based profile screens (student, lecturer, program head).
+  - Integrated Firebase services:
+    - Firebase Authentication for secure sign-in.
+    - Cloud Firestore for real-time storage of users, schedules, attendance and reports.
+  - Applied Riverpod for state management and FL Chart for analytics visualization.
+  - Documented project structure and tech stack in the project README.
+  - Prepared project proposal and planning documentation (Lab2_Proposal PDF).
 
 ## Key Learning Outcomes
 
-From this work, I learned how to:
-
-- Design and develop application features
-- Organize files and project materials effectively
-- Test and debug code more efficiently
-- Apply development concepts in a practical project
-- Reflect on my progress and identify areas for improvement
+- Gained hands-on experience with Flutter app architecture and cross-platform development.
+- Learned how to integrate Firebase Authentication and Cloud Firestore with a mobile app.
+- Practiced state management using Riverpod and how it simplifies data flows and testing.
+- Understood scheduling logic and strategies for preventing booking conflicts.
+- Built UI screens for multiple user roles and learned to manage role-based views.
+- Improved debugging and testing skills on multiple platforms (mobile and web).
+- Practiced documenting project decisions, structure, and development evidence.
 
 ## Reflection
 
-This module helped me understand more about the application development process. I improved my technical skills and became more confident in working through development tasks step by step.
+Working on both lab assignments and the eHadir project helped me move from simple examples to a real, feature-driven application. I learned the importance of planning (designing data models and user flows) before implementing features, and how state management patterns (like Riverpod) make complex UIs more maintainable.
 
-I also learned the importance of planning, testing, and documentation. These helped me keep my work structured and easier to review.
+Challenges I encountered included handling concurrent schedule updates, designing secure and efficient Firestore rules, and balancing feature scope with available time. Iterative testing on different platforms revealed platform-specific UI and permissions quirks that improved my cross-platform development awareness.
 
 ## Possible Improvements
 
-If I were to improve this work further, I would:
+- Expand automated tests:
+  - Add unit tests for business logic (scheduling conflict logic).
+  - Add widget and integration tests for key flows (login, book schedule, take attendance).
+- UI/UX polish:
+  - Improve visual design, accessibility (contrast, labels, screen reader support), and responsive layouts.
+- Offline support & sync:
+  - Add local caching and offline-first sync for unreliable networks.
+- Performance & cost optimizations:
+  - Optimize Firestore read/write patterns to reduce costs and latency.
+- Security:
+  - Harden Firebase security rules and validate inputs client- and server-side.
+- CI/CD:
+  - Set up continuous integration to run tests and code analysis on push/PR, and automations for building release artifacts.
+- Feature expansion:
+  - Reporting dashboards for administrators, exportable attendance reports, notifications for schedule changes.
 
-- Add more detailed documentation for each project
-- Improve the user interface and overall design
-- Include more testing evidence
-- Optimize the code for readability and performance
-- Add more features to make the application more complete
+---
+
+If you’d like, I can commit this README.md into the repository at documents/year_3/semester_2/Application Development/readme.md. Would you like me to update the file in the repo now?

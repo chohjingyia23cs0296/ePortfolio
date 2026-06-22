@@ -15,7 +15,7 @@ It presents my academic progress from foundational programming and computer syst
 | **University** | Universiti Teknologi Malaysia (UTM) |
 | **Portfolio Website** | *To be added* |
 | **GitHub** | chohjingyia23cs0296 |
-| **LinkedIn** | *To be added* |
+| **LinkedIn** | [(https://www.linkedin.com/in/chohjingyi)] |
 
 ## 📚 Repository Structure
 

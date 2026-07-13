@@ -36,10 +36,21 @@ This repository contains a comprehensive collection of data engineering pipeline
 - **Key Themes:** The paradigm shift from ETL to ELT, the rise of Data Lakehouses (decoupling compute from storage), and the adoption of decentralized ownership models like Data Mesh.
 - **Highlights:** Provided strategic recommendations for enterprises to build resilient architectures using cloud scalability, unified metadata management, and AI-driven pipeline monitoring.
 
+### 6. Individual Project: Scalable Traffic Safety Analytics using Apache Spark
+- **Overview:** An end-to-end data engineering project that develops a scalable traffic accident analytics platform using Apache Spark and the Medallion Data Lakehouse Architecture. The project integrates multiple heterogeneous data sources, including the US Accidents dataset, the Nager.Date Public Holiday API, and U.S. Census population data, to support predictive analytics and interactive business intelligence.
+- **Tech Stack:** Apache Spark (PySpark), Delta Lake, Spark MLlib, Power BI, Python.
+- **Highlights:**
+  - Designed and implemented a complete Medallion Architecture consisting of Bronze, Silver, and Gold layers.
+  - Integrated CSV and JSON data sources into a unified analytical framework using PySpark.
+  - Performed large-scale data cleaning, transformation, feature engineering, and dimensional modelling.
+  - Developed a Star Schema with one fact table and two dimension tables to support efficient analytical queries.
+  - Integrated a Random Forest Classifier using Spark MLlib to predict traffic accident severity.
+  - Built an interactive Power BI dashboard for accident trend analysis, severity prediction, holiday impact analysis, and population-normalized traffic statistics.
+
 ---
 
 ## 💡 Key Learnings & Reflection
 
-Building this repository provided me with practical, hands-on experience in constructing scalable, end-to-end data pipelines from scratch. 
+This course shows my learning journey from theory to practice in data engineering. Through the technical report, I learned core concepts like ELT, Lakehouse, cloud architecture, and why modern data systems need scalability and good governance. Through the tutorials, I gained hands-on skills in Azure, Apache Spark, ETL design, CNN models, and AI-assisted pipeline development. I also learned to solve real technical issues, not just follow steps. Through the individual project, I learned to build a full end-to-end solution: data integration, Medallion architecture, feature engineering, machine learning, and dashboard reporting. This experience helped me think more like a complete data engineer.
 
-A significant portion of my growth came from meticulous problem-solving and troubleshooting environment-specific challenges. I successfully resolved Python worker crashes in PySpark by aligning environment variables, corrected complex JDBC driver pathing issues, and navigated cloud security rules in Azure. These projects have given me a deep understanding of big data frameworks, relational data modeling, and the critical role of infrastructure and security in modern data engineering.
+
